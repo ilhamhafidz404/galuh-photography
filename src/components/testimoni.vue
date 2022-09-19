@@ -10,6 +10,15 @@
       p-20
       bg-cover bg-center
       relative
+      before:content-['']
+      before:w-[400px]
+      before:h-[120%]
+      before:-z-[1]
+      before:absolute
+      before:-left-[100px]
+      before:rotate-[10deg]
+      before:bg-[#ffd481]
+      before:-top-[50px]
       after:content-['']
       after:w-full
       after:h-full

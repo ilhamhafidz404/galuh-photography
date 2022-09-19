@@ -53,11 +53,72 @@
         Gallery Photography
       </h2>
       <div>
-        <h3>fwefwefwefwef</h3>
+        <button
+          id="filterButton"
+          data-filter="all"
+          @click="filterGalleryUsingCategoryImage()"
+          class="
+            border-[3px]
+            hover:border-2
+            duration-300
+            shadow-[5px_5px_0_0px_#ffd481]
+            hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+            border-gray-700
+            hover:border-transparent
+            px-5
+            py-2
+            text-gray-700
+            hover:text-white
+            mr-5
+          "
+        >
+          All
+        </button>
+        <button
+          id="filterButton"
+          data-filter="outdoor"
+          @click="filterGalleryUsingCategoryImage()"
+          class="
+            border-[3px]
+            hover:border-2
+            duration-300
+            shadow-[5px_5px_0_0px_#ffd481]
+            hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+            border-gray-700
+            hover:border-transparent
+            px-5
+            py-2
+            text-gray-700
+            hover:text-white
+            mr-5
+          "
+        >
+          Outdoor
+        </button>
+        <button
+          id="filterButton"
+          data-filter="indoor"
+          @click="filterGalleryUsingCategoryImage()"
+          class="
+            border-[3px]
+            hover:border-2
+            duration-300
+            shadow-[5px_5px_0_0px_#ffd481]
+            hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+            border-gray-700
+            hover:border-transparent
+            px-5
+            py-2
+            text-gray-700
+            hover:text-white
+          "
+        >
+          Indoor
+        </button>
       </div>
     </div>
     <figure class="grid grid-cols-3 gap-5">
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="outdoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -66,7 +127,7 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -75,7 +136,7 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -84,7 +145,7 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="outdoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -93,7 +154,7 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -102,7 +163,7 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div class="bg-white p-2 border rounded">
+      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -111,7 +172,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="outdoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -120,7 +185,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="indoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -129,7 +198,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="indoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -138,7 +211,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="outdoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -147,7 +224,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="outdoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -156,7 +237,11 @@
           <img src="../assets/img/contact.jpg" alt="" />
         </a>
       </div>
-      <div id="group2" class="hidden bg-white p-2 border rounded">
+      <div
+        id="group2"
+        class="hidden bg-white p-2 border rounded itemBox"
+        data-item="indoor"
+      >
         <a
           href="/src/assets/img/contact.jpg"
           data-lightbox="gallery"
@@ -200,6 +285,34 @@ export default {
       });
       document.querySelector("#buttonForSeeMore").classList.remove("hidden");
       document.querySelector("#buttonForSeeLess").classList.add("hidden");
+    },
+    filterGalleryUsingCategoryImage() {
+      let list = document.querySelectorAll("#filterButton");
+      let itemBox = document.querySelectorAll(".itemBox");
+
+      for (let i = 0; i < list.length; i++) {
+        list[i].addEventListener("click", function () {
+          for (let j = 0; j < list.length; j++) {
+            list[j].classList.remove("active");
+          }
+          this.classList.add("active");
+
+          let dataFilter = this.getAttribute("data-filter");
+
+          for (let k = 0; k < itemBox.length; k++) {
+            itemBox[k].classList.remove("active");
+            itemBox[k].classList.add("hidden");
+
+            if (
+              itemBox[k].getAttribute("data-item") == dataFilter ||
+              dataFilter == "all"
+            ) {
+              itemBox[k].classList.add("active");
+              itemBox[k].classList.remove("hidden");
+            }
+          }
+        });
+      }
     },
   },
 };
