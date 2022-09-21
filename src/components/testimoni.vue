@@ -4,10 +4,11 @@
     class="
       text-gray-800
       grid grid-cols-1
-      sm:grid-cols-5
+      lg:grid-cols-5
       mt-52
       h-[650px]
-      sm:h-[450px]
+      md:h-[950px]
+      lg:h-[450px]
       gap-10
       p-5
       sm:p-20
@@ -16,7 +17,7 @@
       before:content-[''] before:w-[600px]
       sm:before:w-[400px]
       before:h-[110%]
-      sm:before:h-[120%]
+      lg:before:h-[120%]
       before:-z-[1]
       before:absolute
       before:-left-[100px]
@@ -34,7 +35,8 @@
     <div class="col-span-2 relative z-10 text-white">
       <h2
         class="
-          text-5xl
+          sm:text-left
+          text-center text-5xl
           font-semibold
           tracking-wider
           mb-10
@@ -47,9 +49,9 @@
           after:h-[15px]
           after:absolute
           after:bottom-0
-          after:left-[60px]
-          after:bg-[#ffd481]
-          after:-z-[1]
+          after:left-1/2
+          sm:after:left-[60px]
+          after:bg-[#ffd481] after:-z-[1]
         "
       >
         <span
@@ -82,7 +84,7 @@
         </span>
         Testimoni Client
       </h2>
-      <p>
+      <p class="sm:text-left text-center ml-5 w-full">
         Telah banyak client yang kami tangani dan banyak dari mereka puas dengan
         pelayanan yang kami sajikan. Ini adalah beberapa testimoni dari
         banyaknya kesan positif dari client untuk kami.
@@ -95,22 +97,23 @@
         grid-cols-1
         col-span-3
         -mt-16
-        sm:-mt-24
+        md:mt-0
+        lg:-mt-24
         relative
         z-10
         gap-10
       "
     >
       <div class="relative w-[80%] mx-auto sm:m-0 sm:w-full">
-        <div class="bg-white sm:p-5 p-1 rounded shadow">
+        <div class="bg-white sm:p-5 p-3 rounded shadow">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
-          <h4 class="text-xl font-semibold tracking-wider ml-5">
+          <h4 class="text-xl font-semibold tracking-wider sm:ml-5 ml-7">
             Ilham Hafidz
           </h4>
-          <h5 class="text-sm text-gray-500 ml-5">Pelajar</h5>
-          <p class="text-sm mt-5">
+          <h5 class="text-sm text-gray-500 sm:ml-5 ml-7">Pelajar</h5>
+          <p class="sm:text-sm text-[13px] mt-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
             blanditiis corrupti ad dolores, doloribus, rem nihil provident
             nesciunt maxime ratione iure, animi ut eos asperiores nemo enim

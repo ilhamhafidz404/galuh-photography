@@ -18,6 +18,7 @@
   >
     <h1
       class="
+        hidden
         text-9xl text-white
         font-bold
         italic

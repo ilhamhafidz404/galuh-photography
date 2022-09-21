@@ -15,7 +15,8 @@
       z-50
       text-white
       bg-gray-800
-      mt-20
+      mt-0
+      lg:mt-20
       p-5
       flex
       items-center

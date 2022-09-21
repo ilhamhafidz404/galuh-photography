@@ -1,14 +1,41 @@
 <template>
   <header class="grid grid-cols-1 sm:grid-cols-5 gap-10 mt-14 w-[90%] mx-auto">
-    <div class="col-span-3">
+    <div
+      class="
+        sm:hidden
+        block
+        rotate-[5deg]
+        bg-[#ffd481]
+        absolute
+        left-1/2
+        -translate-x-1/2
+        w-[800px]
+      "
+    >
+      <img
+        src="../assets/img/galuh2.jpg"
+        class="
+          -rotate-[5deg]
+          w-[200px]
+          top-[-30px]
+          h-[300px]
+          object-cover
+          right-[-30px]
+          mx-auto
+          rounded
+        "
+      />
+    </div>
+    <div class="col-span-3 sm:mt-0 mt-[330px]">
       <h1
         class="
           text-5xl
-          sm:text-7xl
+          md:text-7xl
           font-semibold
           tracking-wider
-          leading-[60px]
-          sm:leading-[100px]
+          sm:leading-[60px]
+          md:leading-[80px]
+          lg:leading-[100px]
           text-center
           sm:text-left
           text-gray-800
@@ -21,6 +48,7 @@
             relative
             before:content-['']
             before:absolute
+            before:top-0
             before:left-[-5%]
             before:w-[110%]
             before:h-full
@@ -34,7 +62,7 @@
         Moments
       </h1>
       <hr class="border border-gray-800 my-10" />
-      <section class="grid grid-cols-2 gap-7">
+      <section class="grid lg:grid-cols-2 grid-cols-1 gap-7">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"

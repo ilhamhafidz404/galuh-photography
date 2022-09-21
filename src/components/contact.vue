@@ -1,8 +1,12 @@
 <template>
   <section
     class="
+      px-0
+      md:px-5
       w-full
       sm:w-[90%]
+      md:w-full
+      lg:w-[90%]
       mx-auto
       mt-32
       relative
@@ -12,6 +16,8 @@
       sm:h-[600px]
       after:content-[''] after:absolute after:w-screen
       sm:after:w-[700px]
+      md:after:w-screen
+      lg:after:w-[700px]
       after:bg-cover after:bg-center after:right-0 after:h-full
       before:content-['']
       before:w-[800px]
@@ -20,17 +26,25 @@
       before:bg-[#ffd481]
       before:absolute
       before:-right-10
-      before:top-1/2
+      sm:before:top-1/2
+      before:top-[330px]
+      sm:before:rotate-0
+      before:rotate-[5deg]
     "
     id="contact"
   >
     <div class="relative z-10">
       <h2
         class="
+          sm:ml-0
+          ml-5
           text-5xl
           font-semibold
           tracking-wider
-          text-gray-800
+          text-white
+          sm:text-gray-800
+          md:text-white
+          lg:text-gray-800
           mb-10
           inline-flex
           items-center
@@ -84,6 +98,8 @@
           gap-5
           w-[80%]
           sm:w-[70%]
+          md:w-full
+          lg:w-[70%]
           mx-auto
           sm:m-0
           relative
@@ -94,8 +110,9 @@
             id="whatsapp"
             class="
               bg-white
-              py-10
-              px-16
+              sm:py-10 sm:px-16
+              py-5
+              px-10
               left-0
               min-w-full
               shadow
@@ -152,8 +169,9 @@
             id="instagram"
             class="
               bg-white
-              p-10
-              px-16
+              sm:py-10 sm:px-16
+              py-5
+              px-10
               left-0
               min-w-full
               shadow
@@ -251,8 +269,9 @@
             id="youtube"
             class="
               bg-white
-              p-10
-              px-16
+              sm:py-10 sm:px-16
+              py-5
+              px-10
               left-0
               min-w-full
               shadow

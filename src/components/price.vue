@@ -53,7 +53,27 @@
       </span>
       Daftar Harga
     </h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
+    <div
+      class="
+        grid grid-cols-1
+        md:grid-cols-2
+        lg:grid-cols-3
+        gap-10
+        relative
+        z-10
+        after:content-['']
+        after:w-screen
+        after:-translate-x-[40px]
+        after:-translate-y-1/2
+        after:h-[300px]
+        after:bg-[#ffd481]
+        md:after:absolute
+        after:hidden
+        md:after:block
+        lg:after:hidden
+        after:-z-10 after:top-1/2 after:left-0 after:right-0
+      "
+    >
       <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
         <div class="px-7 py-5">
           <svg
@@ -523,8 +543,19 @@
           </div>
         </div>
       </div>
-      <div>
-        <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
+      <div class="md:col-span-2 lg:col-span-1">
+        <div
+          class="
+            bg-white
+            border-t-[6px]
+            md:w-[60%]
+            lg:w-full
+            md:mx-auto
+            border-[#ffd481]
+            rounded
+            shadow
+          "
+        >
           <div class="px-7 py-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
