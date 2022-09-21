@@ -1,20 +1,18 @@
 <template>
   <section
     class="
-      w-[90%]
+      w-full
+      sm:w-[90%]
       mx-auto
       mt-32
       relative
       flex
       items-center
-      h-[600px]
-      after:content-['']
-      after:absolute
-      after:w-[700px]
-      after:bg-cover
-      after:bg-center
-      after:right-0
-      after:h-full
+      h-[800px]
+      sm:h-[600px]
+      after:content-[''] after:absolute after:w-screen
+      sm:after:w-[700px]
+      after:bg-cover after:bg-center after:right-0 after:h-full
       before:content-['']
       before:w-[800px]
       before:h-[90%]
@@ -79,7 +77,18 @@
         </span>
         Contact Us
       </h2>
-      <section class="grid grid-cols-2 gap-5 w-[70%] relative">
+      <section
+        class="
+          grid grid-cols-1
+          sm:grid-cols-2
+          gap-5
+          w-[80%]
+          sm:w-[70%]
+          mx-auto
+          sm:m-0
+          relative
+        "
+      >
         <div class="flex overflow-hidden">
           <div
             id="whatsapp"
@@ -105,8 +114,8 @@
               Hubungi kami lewat Whatsapp
             </h3>
             <p class="mt-3 text-sm text-gray-800">
-              We’ll help you find the right products and pricing for your
-              business.
+              Hubungi kami lewat Whatsapp untuk membantu mengabadikan moment
+              anda.
             </p>
             <button class="bg-[#4caf50] rounded text-white py-3 w-full mt-5">
               Kirim Pesan
@@ -178,7 +187,7 @@
                   text-gray-600
                   hover:w-10 hover:h-10
                   duration-300
-                  hover:text-[#4caf50]
+                  hover:text-[#d0245d]
                 "
               >
                 <path
@@ -197,8 +206,8 @@
               Hubungi kami lewat Instagram
             </h3>
             <p class="mt-3 text-sm text-gray-800">
-              We’ll help you find the right products and pricing for your
-              business.
+              Hubungi kami lewat Instagram untuk membantu mengabadikan moment
+              anda.
             </p>
             <button class="bg-instagram rounded text-white py-3 w-full mt-5">
               Kirim Pesan
@@ -227,7 +236,7 @@
                   text-gray-600
                   hover:w-10 hover:h-10
                   duration-300
-                  hover:text-[#4caf50]
+                  hover:text-[#d0245d]
                 "
               >
                 <path
@@ -304,7 +313,18 @@
             </button>
           </div>
         </div>
-        <div class="bg-white p-4 shadow rounded text-center">
+        <div
+          class="
+            bg-white
+            p-4
+            shadow
+            rounded
+            text-center
+            sm:w-auto sm:h-auto
+            w-full
+            h-[300px]
+          "
+        >
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.1871923788576!2d108.5863402142001!3d-6.868159169106162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6f1b6c564928a1%3A0xb1692ca08bbacdb5!2sGaluh%20Photography!5e0!3m2!1sid!2sid!4v1663386031517!5m2!1sid!2sid"
             style="border: 0"

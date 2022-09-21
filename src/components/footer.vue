@@ -10,7 +10,17 @@
     </section>
   </footer> -->
   <footer
-    class="text-white bg-gray-800 mt-20 p-5 flex items-center justify-center"
+    class="
+      relative
+      z-50
+      text-white
+      bg-gray-800
+      mt-20
+      p-5
+      flex
+      items-center
+      justify-center
+    "
   >
     <h4>Copyright Galuh Photography &copy; 2022</h4>
   </footer>

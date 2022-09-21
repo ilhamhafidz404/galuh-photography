@@ -1,17 +1,21 @@
 <template>
-  <header class="grid grid-cols-5 gap-10 mt-14 w-[90%] mx-auto">
+  <header class="grid grid-cols-1 sm:grid-cols-5 gap-10 mt-14 w-[90%] mx-auto">
     <div class="col-span-3">
       <h1
         class="
-          text-7xl
+          text-5xl
+          sm:text-7xl
           font-semibold
           tracking-wider
-          leading-[100px]
+          leading-[60px]
+          sm:leading-[100px]
+          text-center
+          sm:text-left
           text-gray-800
         "
       >
-        Create Your
-        <br />
+        Capture <br />
+        Your
         <span
           class="
             relative
@@ -27,10 +31,10 @@
           >Beautiful</span
         >
         <br />
-        Photography
+        Moments
       </h1>
       <hr class="border border-gray-800 my-10" />
-      <section class="flex gap-7">
+      <section class="grid grid-cols-2 gap-7">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +47,16 @@
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+              d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z"
             />
           </svg>
-          <h3 class="text-xl font-semibold mt-3 mb-2">Amazing Builder</h3>
+
+          <h3 class="text-xl font-semibold mt-3 mb-2">
+            Outdoor dan Studio Photo
+          </h3>
           <p class="text-sm text-gray-600">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            saepe maxime omnis soluta?
+            Solo ? Duo atau Family Photo juga bisa. Tersedia dengan berbagai
+            background photo. Juga dapat dibantu untuk mendapat pose yang bagus.
           </p>
         </div>
         <div>
@@ -64,21 +71,35 @@
             <path
               stroke-linecap="round"
               stroke-linejoin="round"
-              d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75"
+              d="M6.827 6.175A2.31 2.31 0 015.186 7.23c-.38.054-.757.112-1.134.175C2.999 7.58 2.25 8.507 2.25 9.574V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9.574c0-1.067-.75-1.994-1.802-2.169a47.865 47.865 0 00-1.134-.175 2.31 2.31 0 01-1.64-1.055l-.822-1.316a2.192 2.192 0 00-1.736-1.039 48.774 48.774 0 00-5.232 0 2.192 2.192 0 00-1.736 1.039l-.821 1.316z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M16.5 12.75a4.5 4.5 0 11-9 0 4.5 4.5 0 019 0zM18.75 10.5h.008v.008h-.008V10.5z"
             />
           </svg>
-          <h3 class="text-xl font-semibold mt-3 mb-2">Amazing Builder</h3>
+
+          <h3 class="text-xl font-semibold mt-3 mb-2">Fotografer Moments</h3>
           <p class="text-sm text-gray-600">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            saepe maxime omnis soluta?
+            Sudah menerima banyak client dari berbagai kota untuk membantu
+            mengabadikan momen Pernikahan, Kelulusan ataupun Family Photo.
           </p>
         </div>
       </section>
     </div>
-    <div class="col-span-2 bg-[#ffd481] relative">
+    <div class="hidden sm:block col-span-2 bg-[#ffd481] relative">
       <img
-        src="../assets/img/header.jpg"
-        class="w-[400px] top-[-30px] right-[-30px] absolute rounded"
+        src="../assets/img/galuh2.jpg"
+        class="
+          w-[400px]
+          top-[-30px]
+          h-[600px]
+          object-cover
+          right-[-30px]
+          absolute
+          rounded
+        "
       />
     </div>
   </header>

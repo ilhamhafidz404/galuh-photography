@@ -1,8 +1,22 @@
 <template>
   <nav class="p-3 flex justify-between items-center w-[90%] mx-auto">
     <div class="flex items-center">
-      <img src="../assets/img/logo.png" class="w-[40px] mr-5" />
-      <ul class="flex text-gray-600">
+      <div
+        class="
+          bg-[#ffd481]/70
+          mr-7
+          w-[50px]
+          h-[50px]
+          rounded-full
+          flex
+          items-center
+          justify-center
+          shadow-sm
+        "
+      >
+        <img src="../assets/img/gp_logo.png" class="w-[50px]" />
+      </div>
+      <ul class="hidden sm:flex text-gray-600">
         <li>
           <a href="#gallery">Gallery</a>
         </li>

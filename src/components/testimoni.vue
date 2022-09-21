@@ -3,16 +3,20 @@
     id="testimoni"
     class="
       text-gray-800
-      grid grid-cols-5
+      grid grid-cols-1
+      sm:grid-cols-5
       mt-52
-      h-[450px]
+      h-[650px]
+      sm:h-[450px]
       gap-10
-      p-20
+      p-5
+      sm:p-20
       bg-cover bg-center
       relative
-      before:content-['']
-      before:w-[400px]
-      before:h-[120%]
+      before:content-[''] before:w-[600px]
+      sm:before:w-[400px]
+      before:h-[110%]
+      sm:before:h-[120%]
       before:-z-[1]
       before:absolute
       before:-left-[100px]
@@ -79,15 +83,26 @@
         Testimoni Client
       </h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo mollitia
-        explicabo pariatur inventore sit, quas aliquid. Neque unde illo tenetur
-        odit recusandae incidunt quia, assumenda, natus voluptas reiciendis
-        temporibus tempora.
+        Telah banyak client yang kami tangani dan banyak dari mereka puas dengan
+        pelayanan yang kami sajikan. Ini adalah beberapa testimoni dari
+        banyaknya kesan positif dari client untuk kami.
       </p>
     </div>
-    <div class="grid grid-cols-2 col-span-3 -mt-24 relative z-10 gap-10">
-      <div class="relative">
-        <div class="bg-white p-5 rounded shadow">
+    <div
+      class="
+        grid
+        sm:grid-cols-2
+        grid-cols-1
+        col-span-3
+        -mt-16
+        sm:-mt-24
+        relative
+        z-10
+        gap-10
+      "
+    >
+      <div class="relative w-[80%] mx-auto sm:m-0 sm:w-full">
+        <div class="bg-white sm:p-5 p-1 rounded shadow">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
@@ -119,8 +134,8 @@
           </div>
         </div>
       </div>
-      <div class="relative">
-        <div class="bg-white p-5 rounded shadow absolute bottom-0">
+      <div class="relative sm:block hidden">
+        <div class="bg-white sm:p-5 p-1 rounded shadow absolute bottom-0">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
@@ -150,8 +165,8 @@
           </div>
         </div>
       </div>
-      <div class="relative">
-        <div class="bg-white p-5 rounded shadow">
+      <div class="relative sm:block hidden">
+        <div class="bg-white sm:p-5 p-1 rounded shadow">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
@@ -181,8 +196,8 @@
           </div>
         </div>
       </div>
-      <div class="relative">
-        <div class="bg-white p-5 rounded shadow w-[90%]">
+      <div class="relative sm:block hidden">
+        <div class="bg-white sm:p-5 p-1 rounded shadow w-[90%]">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>

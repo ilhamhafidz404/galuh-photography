@@ -10,7 +10,8 @@
       w-screen
       bg-gray-700
       z-50
-      flex
+      hidden
+      sm:flex
       align-center
       justify-center
     "

@@ -2,7 +2,8 @@
   <section id="price" class="w-[90%] mx-auto mt-32">
     <h2
       class="
-        text-5xl
+        text-4xl
+        sm:text-5xl
         font-semibold
         tracking-wider
         mb-10
@@ -25,6 +26,7 @@
           bg-[#ffd481]
           w-[50px]
           h-[50px]
+          min-w-[50px] min-h-[50px]
           rounded-full
           flex
           items-center
@@ -51,16 +53,8 @@
       </span>
       Daftar Harga
     </h2>
-    <div class="grid grid-cols-3 gap-10">
-      <div
-        class="
-          bg-white
-          border-t-[6px] border-[#ffd481]
-          rounded
-          shadow
-          text-center
-        "
-      >
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-10">
+      <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
         <div class="px-7 py-5">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -76,19 +70,224 @@
               d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
             />
           </svg>
-          <h3 class="items-center text-3xl font-semibold mt-3 text-gray-700">
-            Photo Indoor
+          <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+            Foto Reguler
           </h3>
-          <p class="text-sm mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi
-            cumque accusantium voluptatum dolorem?
+          <p class="text-xs text-gray-600 mt-2 text-center">
+            Untuk kalian yang mempunyai keperluan foto untuk pribadi, keperluan
+            formal seperti foto ijazah ataupun ingin mengabadikan moment bersama
+            pasangan.
           </p>
-          <h5 class="mt-4">
-            RP. <span class="text-5xl font-bold">50</span> rb
-          </h5>
-          <button class="bg-[#ffd481] w-[80%] mt-5 text-white py-3 rounded">
-            Booking Sekarang
-          </button>
+          <table class="w-full mt-5">
+            <tr class="border-b-2">
+              <td>
+                Singel <span class="text-xs text-gray-400">(studio)</span>
+              </td>
+              <td class="text-right">
+                Rp.
+                <span class="font-bold text-xl text-gray-700">99 - 199</span>
+                rb
+              </td>
+              <td>
+                <a
+                  class="
+                    bg-[#ffd481]
+                    p-1
+                    rounded
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    ml-3
+                  "
+                  href="/src/assets/img/poster/single-studio.jpg"
+                  data-lightbox="poster-single-studio"
+                  data-title="My caption"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pt-5">
+                Singel <span class="text-xs text-gray-400">(outdoor)</span>
+              </td>
+              <td class="pt-5 text-right">
+                Rp.
+                <span class="font-bold text-xl text-gray-700">79 - 189</span>
+                rb
+              </td>
+              <td class="pt-5">
+                <a
+                  class="
+                    bg-[#ffd481]
+                    p-1
+                    rounded
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    ml-3
+                  "
+                  href="/src/assets/img/poster/single-outdoor.jpg"
+                  data-lightbox="poster-single-outdoor"
+                  data-title="My caption"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pt-5">
+                Couple <span class="text-xs text-gray-400">(studio)</span>
+              </td>
+              <td class="pt-5 text-right">
+                Rp.
+                <span class="font-bold text-xl text-gray-700">129 - 249</span>
+                rb
+              </td>
+              <td class="pt-5">
+                <a
+                  class="
+                    bg-[#ffd481]
+                    p-1
+                    rounded
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    ml-3
+                  "
+                  href="/src/assets/img/poster/couple-studio.jpg"
+                  data-lightbox="poster-couple-studio"
+                  data-title="My caption"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </a>
+              </td>
+            </tr>
+            <tr class="border-b-2">
+              <td class="pt-5">
+                Couple <span class="text-xs text-gray-400">(outdoor)</span>
+              </td>
+              <td class="pt-5 text-right">
+                Rp.
+                <span class="font-bold text-xl text-gray-700">99 - 250</span>
+                rb
+              </td>
+              <td class="pt-5">
+                <a
+                  class="
+                    bg-[#ffd481]
+                    p-1
+                    rounded
+                    text-white
+                    flex
+                    items-center
+                    justify-center
+                    ml-3
+                  "
+                  href="/src/assets/img/poster/couple-outdoor.jpg"
+                  data-lightbox="poster-couple-outdoor"
+                  data-title="My caption"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <a
+            href="https://api.whatsapp.com/send?phone=15551234567&text=Halo Galuh Phorography, saya ingin memesan 'Foto Reguler' dengan paket (masukan paket yang anda pilih)"
+            target="_blank"
+            class="
+              block
+              text-center
+              duration-500
+              border-[3px] border-gray-800
+              hover:border-transparent
+              shadow-[7px_7px_0_0_#ffd481]
+              hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+              w-full
+              mt-5
+              text-gray-800
+              hover:text-white
+              py-3
+            "
+          >
+            Pesan Sekarang
+          </a>
         </div>
         <div class="bg-gray-50 px-5 py-4">
           <svg
@@ -105,128 +304,488 @@
               d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
             />
           </svg>
-          <p class="text-xs mt-3">
-            Tersedia Background berwarna terang/gelap, background 2 warna dan
-            banyak background lainnya.
+          <p class="text-xs mt-3 text-center">
+            Cetak foto ukuran 4-10R, dapat bonus foto singel sampai 15 foto dan
+            tersedia sampai 3 background
           </p>
         </div>
       </div>
-      <div
-        class="
-          bg-white
-          border-t-[6px] border-[#ffd481]
-          rounded
-          shadow
-          text-center
-        "
-      >
-        <div class="px-7 py-5">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-12 h-12 text-[#ffd481] mx-auto"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25"
-            />
-          </svg>
-          <h3 class="items-center text-3xl font-semibold mt-3 text-gray-700">
-            Photo Outdoor
-          </h3>
-          <p class="text-sm mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi
-            cumque accusantium voluptatum dolorem?
-          </p>
-          <h5 class="mt-4">
-            RP. <span class="text-5xl font-bold">50</span> rb
-          </h5>
-          <button class="bg-[#ffd481] w-[80%] mt-5 text-white py-3 rounded">
-            Booking Sekarang
-          </button>
-        </div>
-        <div class="bg-gray-50 px-5 py-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-8 h-8 mx-auto"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
-            />
-          </svg>
-          <p class="text-xs mt-3">
-            Tersedia Background berwarna terang/gelap, background 2 warna dan
-            banyak background lainnya.
-          </p>
+      <div>
+        <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
+          <div class="px-7 py-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 text-[#ffd481] mx-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25"
+              />
+            </svg>
+            <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+              Foto Acara
+            </h3>
+            <p class="text-xs text-gray-600 mt-2 text-center">
+              Kami akan membantu anda untuk mengabadikan dan mebantuk acara
+              anda. Untuk paket acara lain bisa hubungi langsung via WA.
+            </p>
+            <table class="w-full mt-5">
+              <tr class="border-b-2">
+                <td>
+                  Prewedding
+                  <span class="text-xs text-gray-400 block">(studio)</span>
+                </td>
+                <td class="text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-70">650 </span>rb
+                  <span class="font-bold text-xl text-gray-700"> - </span>
+                  <span class="font-bold text-xl text-gray-700">1.3 </span>jt
+                </td>
+                <td>
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/prewedding-studio.jpg"
+                    data-lightbox="poster-prewedding-studio"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="pt-5">
+                  Prewedding
+                  <span class="text-xs text-gray-400 block">(outdoor)</span>
+                </td>
+                <td class="pt-5 text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">550 </span>rb
+                  <span class="font-bold text-xl text-gray-700"> - </span>
+                  <span class="font-bold text-xl text-gray-700">1.2 </span>jt
+                </td>
+                <td class="pt-5">
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/prewedding-outdoor.jpg"
+                    data-lightbox="poster-prewedding-outdoor"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="pt-5">Wedding</td>
+                <td class="pt-5 text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">450 </span>rb
+                  <span class="font-bold text-xl text-gray-700"> - </span>
+                  <span class="font-bold text-xl text-gray-700">1.2 </span>jt
+                </td>
+                <td class="pt-5">
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/wedding.jpg"
+                    data-lightbox="poster-wedding"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <a
+              href="https://api.whatsapp.com/send?phone=15551234567&text=Halo Galuh Phorography, saya ingin memesan 'Foto Acara' dengan paket (masukan paket yang anda pilih)"
+              target="_blank"
+              class="
+                block
+                text-center
+                duration-500
+                border-[3px] border-gray-800
+                hover:border-transparent
+                shadow-[7px_7px_0_0_#ffd481]
+                hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+                w-full
+                mt-5
+                text-gray-800
+                hover:text-white
+                py-3
+              "
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+          <div class="bg-gray-50 px-5 py-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8 mx-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+              />
+            </svg>
+            <p class="text-xs mt-3 text-center">
+              Cetak album dan cetak foto mulai dari 4-20R dengan frame dan
+              canvas, serta foto sampai 120 foto
+            </p>
+          </div>
         </div>
       </div>
-      <div
-        class="
-          bg-white
-          border-t-[6px] border-[#ffd481]
-          rounded
-          shadow
-          text-center
-        "
-      >
-        <div class="px-7 py-5">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-12 h-12 text-[#ffd481] mx-auto"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
-            />
-          </svg>
-          <h3 class="items-center text-3xl font-semibold mt-3 text-gray-700">
-            Photo Bersama
-          </h3>
-          <p class="text-sm mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi
-            cumque accusantium voluptatum dolorem?
-          </p>
-          <h5 class="mt-4">
-            RP. <span class="text-5xl font-bold">50</span> rb
-          </h5>
-          <button class="bg-[#ffd481] w-[80%] mt-5 text-white py-3 rounded">
-            Booking Sekarang
-          </button>
-        </div>
-        <div class="bg-gray-50 px-5 py-4">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-8 h-8 mx-auto"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
-            />
-          </svg>
-          <p class="text-xs mt-3">
-            Tersedia Background berwarna terang/gelap, background 2 warna dan
-            banyak background lainnya.
-          </p>
+      <div>
+        <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
+          <div class="px-7 py-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 text-[#ffd481] mx-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
+              />
+            </svg>
+            <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+              Foto Bersama
+            </h3>
+            <p class="text-xs text-gray-600 mt-2 text-center">
+              Untuk kalian yang akan membuat foto kenangan setelah kelulusa,
+              foto kengan keluarga ataupun foto dengan banyak orang dalam 1
+              frame.
+            </p>
+            <table class="w-full mt-5">
+              <tr class="border-b-2">
+                <td>
+                  <a
+                    href="/src/assets/img/poster/couple-outdoor.jpg"
+                    data-lightbox="poster-keluarga-studio"
+                    data-title="My caption"
+                  >
+                    Keluarga
+                    <span class="text-xs text-gray-400">(studio)</span>
+                  </a>
+                </td>
+                <td class="text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">165 - 295</span>
+                  rb
+                </td>
+                <td>
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/keluarga-studio.jpg"
+                    data-lightbox="poster-keluarga-studio"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="pt-5">
+                  Keluarga <span class="text-xs text-gray-400">(outdoor)</span>
+                </td>
+                <td class="pt-5 text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">165 - 299</span>
+                  rb
+                </td>
+                <td class="pt-5">
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/keluarga-outdoor.jpg"
+                    data-lightbox="poster-keluarga-outdoor"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="pt-5">
+                  Group <span class="text-xs text-gray-400">(studio)</span>
+                </td>
+                <td class="pt-5 text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">165 - 295</span>
+                  rb
+                </td>
+                <td class="pt-5">
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/group-studio.jpg"
+                    data-lightbox="poster-group-studio"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="pt-5">
+                  Group <span class="text-xs text-gray-400">(outdoor)</span>
+                </td>
+                <td class="pt-5 text-right">
+                  Rp.
+                  <span class="font-bold text-xl text-gray-700">145 - 275</span>
+                  rb
+                </td>
+                <td class="pt-5">
+                  <a
+                    class="
+                      bg-[#ffd481]
+                      p-1
+                      rounded
+                      text-white
+                      flex
+                      items-center
+                      justify-center
+                      ml-3
+                    "
+                    href="/src/assets/img/poster/group-outdoor.jpg"
+                    data-lightbox="poster-group-outdoor"
+                    data-title="My caption"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-4 h-4"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                    </svg>
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <a
+              href="https://api.whatsapp.com/send?phone=15551234567&text=Halo Galuh Phorography, saya ingin memesan 'Foto Bersama' dengan paket (masukan paket yang anda pilih)"
+              target="_blank"
+              class="
+                block
+                text-center
+                duration-500
+                border-[3px] border-gray-800
+                hover:border-transparent
+                shadow-[7px_7px_0_0_#ffd481]
+                hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+                w-full
+                mt-5
+                text-gray-800
+                hover:text-white
+                py-3
+              "
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+          <div class="bg-gray-50 px-5 py-4">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-8 h-8 mx-auto"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z"
+              />
+            </svg>
+            <p class="text-xs mt-3 text-center">
+              maximal 5 - 15 orang, dan cetak foto ukuran 4-10R, serta bonus
+              foto singel 3 - 5 foto.
+            </p>
+          </div>
         </div>
       </div>
     </div>

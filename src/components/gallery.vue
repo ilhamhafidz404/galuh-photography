@@ -1,18 +1,19 @@
 <template>
   <section id="gallery" class="w-[90%] mx-auto mt-32">
-    <div class="flex items-center justify-between">
+    <div class="block sm:flex items-center justify-between mb-10">
       <h2
         class="
-          text-5xl
+          text-4xl
+          sm:text-5xl
           font-semibold
           tracking-wider
-          mb-10
-          flex
+          inline-flex
+          sm:flex
           items-center
           relative
           z-[1]
-          after:content-['']
-          after:w-[300px]
+          after:content-[''] after:w-[150px]
+          sm:after:w-[300px]
           after:h-[15px]
           after:absolute
           after:bottom-0
@@ -26,6 +27,7 @@
             bg-[#ffd481]
             w-[50px]
             h-[50px]
+            min-w-[50px] min-h-[50px]
             rounded-full
             flex
             items-center
@@ -52,7 +54,29 @@
         </span>
         Gallery Photography
       </h2>
-      <div>
+      <!-- <button
+        id="filterButton"
+        data-filter="all"
+        v-if="openMoreGallery == false"
+        @click="filterGalleryUsingCategoryImage()"
+        class="
+          border-[3px]
+          hover:border-2
+          duration-300
+          shadow-[5px_5px_0_0px_#ffd481]
+          hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+          border-gray-700
+          hover:border-transparent
+          px-5
+          py-2
+          text-gray-700
+          hover:text-white
+          mr-5
+        "
+      >
+        Lihat Selengkapnya
+      </button>
+      <div v-else class="mt-10 sm:mt-0 sm:block flex justify-center">
         <button
           id="filterButton"
           data-filter="all"
@@ -115,139 +139,191 @@
         >
           Indoor
         </button>
-      </div>
+      </div> -->
     </div>
-    <figure class="grid grid-cols-3 gap-5">
-      <div class="bg-white p-2 border rounded itemBox" data-item="outdoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div class="bg-white p-2 border rounded itemBox" data-item="outdoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div class="bg-white p-2 border rounded itemBox" data-item="indoor">
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
+    <figure class="grid grid-cols-2 sm:grid-cols-3 gap-1 sm:gap-5">
       <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
+        class="bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
         data-item="outdoor"
       >
         <a
-          href="/src/assets/img/contact.jpg"
+          href="/src/assets/img/gallery/potrait1.jpg"
           data-lightbox="gallery"
           data-title="My caption"
         >
-          <img src="../assets/img/contact.jpg" alt="" />
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/potrait1.jpg"
+            alt=""
+          />
         </a>
       </div>
       <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
+        class="bg-white p-1 sm:p-2 border rounded itemBox"
         data-item="indoor"
       >
         <a
-          href="/src/assets/img/contact.jpg"
+          href="/src/assets/img/gallery/landscape1.jpg"
           data-lightbox="gallery"
           data-title="My caption"
         >
-          <img src="../assets/img/contact.jpg" alt="" />
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/landscape1.jpg"
+            alt=""
+          />
         </a>
       </div>
       <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
+        class="bg-white p-1 sm:p-2 border rounded itemBox"
         data-item="indoor"
       >
         <a
-          href="/src/assets/img/contact.jpg"
+          href="/src/assets/img/gallery/landscape2.jpg"
           data-lightbox="gallery"
           data-title="My caption"
         >
-          <img src="../assets/img/contact.jpg" alt="" />
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/landscape2.jpg"
+            alt=""
+          />
         </a>
       </div>
       <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
+        class="bg-white p-1 sm:p-2 border rounded itemBox"
         data-item="outdoor"
       >
         <a
-          href="/src/assets/img/contact.jpg"
+          href="/src/assets/img/gallery/landscape3.jpg"
           data-lightbox="gallery"
           data-title="My caption"
         >
-          <img src="../assets/img/contact.jpg" alt="" />
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/landscape3.jpg"
+            alt=""
+          />
         </a>
       </div>
       <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/contact.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img src="../assets/img/contact.jpg" alt="" />
-        </a>
-      </div>
-      <div
-        id="group2"
-        class="hidden bg-white p-2 border rounded itemBox"
+        class="bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
         data-item="indoor"
       >
         <a
-          href="/src/assets/img/contact.jpg"
+          href="/src/assets/img/gallery/potrait2.jpg"
           data-lightbox="gallery"
           data-title="My caption"
         >
-          <img src="../assets/img/contact.jpg" alt="" />
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/potrait2.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+      <div
+        id="group2"
+        class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
+        data-item="outdoor"
+      >
+        <a
+          href="/src/assets/img/gallery/landscape4.jpg"
+          data-lightbox="gallery"
+          data-title="My caption"
+        >
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/landscape4.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+      <div
+        id="group2"
+        class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
+        data-item="indoor"
+      >
+        <a
+          href="/src/assets/img/gallery/landscape5.jpg"
+          data-lightbox="gallery"
+          data-title="My caption"
+        >
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/landscape5.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="grid grid-row-2 gap-5">
+        <div
+          id="group2"
+          class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
+          data-item="indoor"
+        >
+          <a
+            href="/src/assets/img/gallery/landscape6.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="h-full object-cover"
+              src="../assets/img/gallery/landscape6.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div
+          id="group2"
+          class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
+          data-item="indoor"
+        >
+          <a
+            href="/src/assets/img/gallery/landscape6.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="h-full object-cover"
+              src="../assets/img/gallery/landscape6.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <div
+        id="group2"
+        class="hidden bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
+        data-item="outdoor"
+      >
+        <a
+          href="/src/assets/img/gallery/potrait4.jpg"
+          data-lightbox="gallery"
+          data-title="My caption"
+        >
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/potrait4.jpg"
+            alt=""
+          />
+        </a>
+      </div>
+      <div
+        id="group2"
+        class="hidden bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
+        data-item="outdoor"
+      >
+        <a
+          href="/src/assets/img/gallery/potrait5.jpg"
+          data-lightbox="gallery"
+          data-title="My caption"
+        >
+          <img
+            class="h-full object-cover"
+            src="../assets/img/gallery/potrait5.jpg"
+            alt=""
+          />
         </a>
       </div>
     </figure>
@@ -270,6 +346,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+      openMoreGallery: false,
+    };
+  },
   methods: {
     seeMoreGallery() {
       document.querySelectorAll("#group2").forEach((gallery) => {
@@ -287,27 +368,40 @@ export default {
       document.querySelector("#buttonForSeeLess").classList.add("hidden");
     },
     filterGalleryUsingCategoryImage() {
+      this.openMoreGallery = true;
       let list = document.querySelectorAll("#filterButton");
       let itemBox = document.querySelectorAll(".itemBox");
 
       for (let i = 0; i < list.length; i++) {
         list[i].addEventListener("click", function () {
           for (let j = 0; j < list.length; j++) {
-            list[j].classList.remove("active");
+            list[j].classList.add("border-[3px]");
+            list[j].classList.add("shadow-[5px_5px_0_0px_#ffd481]");
+            list[j].classList.add("border-gray-700");
+            list[j].classList.remove("border-2");
+            list[j].classList.remove("shadow-[0_0_12px_#ffd481]");
+            list[j].classList.remove("border-transparent");
+            list[j].classList.remove("text-white");
+            list[j].classList.remove("bg-[#ffd481]");
           }
-          this.classList.add("active");
+          this.classList.remove("border-[3px]");
+          this.classList.remove("shadow-[5px_5px_0_0px_#ffd481]");
+          this.classList.remove("border-gray-700");
+          this.classList.add("border-2");
+          this.classList.add("shadow-[0_0_12px_#ffd481]");
+          this.classList.add("border-transparent");
+          this.classList.add("text-white");
+          this.classList.add("bg-[#ffd481]");
 
           let dataFilter = this.getAttribute("data-filter");
 
           for (let k = 0; k < itemBox.length; k++) {
-            itemBox[k].classList.remove("active");
             itemBox[k].classList.add("hidden");
 
             if (
               itemBox[k].getAttribute("data-item") == dataFilter ||
               dataFilter == "all"
             ) {
-              itemBox[k].classList.add("active");
               itemBox[k].classList.remove("hidden");
             }
           }

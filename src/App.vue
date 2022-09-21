@@ -45,5 +45,7 @@ html {
 }
 body {
   background-color: #fdf9f2;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 </style>
