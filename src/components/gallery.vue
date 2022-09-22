@@ -164,7 +164,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/potrait1.jpg"
               alt=""
             />
@@ -193,7 +193,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/landscape1.jpg"
               alt=""
             />
@@ -222,7 +222,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/landscape2.jpg"
               alt=""
             />
@@ -251,7 +251,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/landscape3.jpg"
               alt=""
             />
@@ -280,7 +280,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/potrait2.jpg"
               alt=""
             />
@@ -311,7 +311,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/landscape4.jpg"
               alt=""
             />
@@ -342,7 +342,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/landscape5.jpg"
               alt=""
             />
@@ -436,7 +436,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/potrait4.jpg"
               alt=""
             />
@@ -467,7 +467,7 @@
             data-title="My caption"
           >
             <img
-              class="object-center h-full object-cover"
+              class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/potrait5.jpg"
               alt=""
             />
