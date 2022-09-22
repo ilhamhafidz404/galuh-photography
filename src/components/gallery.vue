@@ -142,189 +142,337 @@
       </div> -->
     </div>
     <figure class="grid grid-cols-2 sm:grid-cols-3 gap-1 sm:gap-5">
-      <div
-        class="bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/gallery/potrait1.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="row-span-2 overflow-hidden">
+        <div
+          class="
+            bg-white
+            w-full
+            max-h-[300px]
+            md:max-h-max
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/potrait1.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/potrait1.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/potrait1.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        class="bg-white p-1 sm:p-2 border rounded itemBox"
-        data-item="indoor"
-      >
-        <a
-          href="/src/assets/img/gallery/landscape1.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden">
+        <div
+          class="
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            max-h-[150px]
+            md:max-h-max
+            border
+            overflow-hidden
+            rounded
+            itemBox
+          "
+          data-item="indoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/landscape1.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/landscape1.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/landscape1.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        class="bg-white p-1 sm:p-2 border rounded itemBox"
-        data-item="indoor"
-      >
-        <a
-          href="/src/assets/img/gallery/landscape2.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden">
+        <div
+          class="
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            max-h-[150px]
+            md:max-h-max
+            overflow-hidden
+            itemBox
+          "
+          data-item="indoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/landscape2.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/landscape2.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/landscape2.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        class="bg-white p-1 sm:p-2 border rounded itemBox"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/gallery/landscape3.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden">
+        <div
+          class="
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[150px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/landscape3.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/landscape3.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/landscape3.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        class="bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
-        data-item="indoor"
-      >
-        <a
-          href="/src/assets/img/gallery/potrait2.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden row-span-2">
+        <div
+          class="
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[300px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="indoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/potrait2.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/potrait2.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/potrait2.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        id="group2"
-        class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/gallery/landscape4.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden">
+        <div
+          id="group2"
+          class="
+            hidden
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[150px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/landscape4.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/landscape4.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/landscape4.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
-      <div
-        id="group2"
-        class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
-        data-item="indoor"
-      >
-        <a
-          href="/src/assets/img/gallery/landscape5.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden">
+        <div
+          id="group2"
+          class="
+            hidden
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[150px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/landscape5.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/landscape5.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/landscape5.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
       <div class="grid grid-row-2 gap-5">
-        <div
-          id="group2"
-          class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
-          data-item="indoor"
-        >
-          <a
-            href="/src/assets/img/gallery/landscape6.jpg"
-            data-lightbox="gallery"
-            data-title="My caption"
+        <div class="overflow-hidden">
+          <div
+            id="group2"
+            class="
+              hidden
+              bg-white
+              w-full
+              p-1
+              sm:p-2
+              border
+              rounded
+              itemBox
+              max-h-[150px]
+              md:max-h-max
+              overflow-hidden
+            "
+            data-item="indoor"
           >
-            <img
-              class="h-full object-cover"
-              src="../assets/img/gallery/landscape6.jpg"
-              alt=""
-            />
-          </a>
+            <a
+              href="/src/assets/img/gallery/landscape6.jpg"
+              data-lightbox="gallery"
+              data-title="My caption"
+            >
+              <img
+                class="h-full object-cover"
+                src="../assets/img/gallery/landscape6.jpg"
+                alt=""
+              />
+            </a>
+          </div>
         </div>
+        <div class="overflow-hidden">
+          <div
+            id="group2"
+            class="
+              hidden
+              bg-white
+              w-full
+              p-1
+              sm:p-2
+              border
+              rounded
+              itemBox
+              max-h-[150px]
+              md:max-h-max
+            "
+            data-item="indoor"
+          >
+            <a
+              href="/src/assets/img/gallery/landscape6.jpg"
+              data-lightbox="gallery"
+              data-title="My caption"
+            >
+              <img
+                class="h-full object-cover"
+                src="../assets/img/gallery/landscape6.jpg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="overflow-hidden row-span-2">
         <div
           id="group2"
-          class="hidden bg-white p-1 sm:p-2 border rounded itemBox"
-          data-item="indoor"
+          class="
+            hidden
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[300px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
           <a
-            href="/src/assets/img/gallery/landscape6.jpg"
+            href="/src/assets/img/gallery/potrait4.jpg"
             data-lightbox="gallery"
             data-title="My caption"
           >
             <img
-              class="h-full object-cover"
-              src="../assets/img/gallery/landscape6.jpg"
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/potrait4.jpg"
               alt=""
             />
           </a>
         </div>
       </div>
-      <div
-        id="group2"
-        class="hidden bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/gallery/potrait4.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
+      <div class="overflow-hidden row-span-2">
+        <div
+          id="group2"
+          class="
+            hidden
+            bg-white
+            w-full
+            p-1
+            sm:p-2
+            border
+            rounded
+            itemBox
+            max-h-[300px]
+            md:max-h-max
+            overflow-hidden
+          "
+          data-item="outdoor"
         >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/potrait4.jpg"
-            alt=""
-          />
-        </a>
-      </div>
-      <div
-        id="group2"
-        class="hidden bg-white p-1 sm:p-2 border rounded itemBox row-span-2"
-        data-item="outdoor"
-      >
-        <a
-          href="/src/assets/img/gallery/potrait5.jpg"
-          data-lightbox="gallery"
-          data-title="My caption"
-        >
-          <img
-            class="h-full object-cover"
-            src="../assets/img/gallery/potrait5.jpg"
-            alt=""
-          />
-        </a>
+          <a
+            href="/src/assets/img/gallery/potrait5.jpg"
+            data-lightbox="gallery"
+            data-title="My caption"
+          >
+            <img
+              class="object-center h-full object-cover"
+              src="../assets/img/gallery/potrait5.jpg"
+              alt=""
+            />
+          </a>
+        </div>
       </div>
     </figure>
     <button
