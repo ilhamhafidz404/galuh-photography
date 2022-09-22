@@ -1,14 +1,4 @@
 <template>
-  <!-- <footer class="mt-32">
-    <section class="bg-[#ffd481] p-5">
-      <h3 class="text-xl text-white font-semibold">
-        Yuk lihat-lihat studio kami
-      </h3>
-    </section>
-    <section class="bg-gray-800">
-      <h1>wefwfwefew</h1>
-    </section>
-  </footer> -->
   <footer
     class="
       relative
