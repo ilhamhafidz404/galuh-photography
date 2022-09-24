@@ -13,7 +13,9 @@
       justify-center
     "
   >
-    <h4>Copyright Galuh Photography &copy; 2022</h4>
+    <h4 class="md:text-base text-xs">
+      Copyright Galuh Photography &copy; 2022
+    </h4>
   </footer>
 </template>
 

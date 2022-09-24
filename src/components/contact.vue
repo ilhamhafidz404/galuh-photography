@@ -12,7 +12,7 @@
       relative
       flex
       items-center
-      h-[800px]
+      h-[1000px]
       sm:h-[600px]
       after:content-[''] after:absolute after:w-screen
       sm:after:w-[700px]
@@ -36,9 +36,11 @@
     <div class="relative z-10">
       <h2
         class="
-          sm:ml-0
+          mt-24
+          sm:mt-0 sm:ml-0
           ml-5
-          text-5xl
+          text-3xl
+          sm:text-5xl
           font-semibold
           tracking-wider
           text-white
@@ -127,10 +129,10 @@
               alt="whatsapp logo"
               class="w-[70px] mx-auto"
             />
-            <h3 class="text-2xl mt-5 font-semibold text-gray-800">
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
               Hubungi kami lewat Whatsapp
             </h3>
-            <p class="mt-3 text-sm text-gray-800">
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
               Hubungi kami lewat Whatsapp untuk membantu mengabadikan moment
               anda.
             </p>
@@ -220,10 +222,10 @@
               alt="instagram logo"
               class="w-[70px] mx-auto"
             />
-            <h3 class="text-2xl mt-5 font-semibold text-gray-800">
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
               Hubungi kami lewat Instagram
             </h3>
-            <p class="mt-3 text-sm text-gray-800">
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
               Hubungi kami lewat Instagram untuk membantu mengabadikan moment
               anda.
             </p>
@@ -305,7 +307,7 @@
                   text-gray-600
                   hover:w-10 hover:h-10
                   duration-300
-                  hover:text-[#4caf50]
+                  hover:text-[#ff0101]
                 "
               >
                 <path
@@ -316,18 +318,18 @@
               </svg>
             </button>
             <img
-              src="../assets/img/whatsapp.png"
-              alt="whatsapp logo"
+              src="../assets/img/youtube.png"
+              alt="youtube logo"
               class="w-[70px] mx-auto"
             />
-            <h3 class="text-2xl mt-5 font-semibold text-gray-800">
-              Hubungi kami lewat Youtube
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
+              Ikuti kami di Youtube
             </h3>
-            <p class="mt-3 text-sm text-gray-800">
-              We’ll help you find the right products and pricing for your
-              business.
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
+              Subscribe Youtube Channel kami untuk melihat kegiatan photography
+              kami
             </p>
-            <button class="bg-[#4caf50] rounded text-white py-3 w-full mt-5">
+            <button class="bg-[#ff0101] rounded text-white py-3 w-full mt-5">
               Kirim Pesan
             </button>
           </div>

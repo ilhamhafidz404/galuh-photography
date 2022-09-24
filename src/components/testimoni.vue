@@ -4,14 +4,16 @@
     class="
       text-gray-800
       grid grid-cols-1
-      lg:grid-cols-5
+      xl:grid-cols-5
       mt-52
-      h-[650px]
+      h-[500px]
       md:h-[950px]
-      lg:h-[450px]
+      lg:h-[750px]
+      xl:h-[450px]
       gap-10
-      p-5
-      sm:p-20
+      py-5
+      px-0
+      sm:px-20 sm:py-20
       bg-cover bg-center
       relative
       before:content-[''] before:w-[600px]
@@ -36,7 +38,8 @@
       <h2
         class="
           sm:text-left
-          text-center text-5xl
+          text-center text-3xl
+          sm:text-5xl
           font-semibold
           tracking-wider
           mb-10
@@ -49,15 +52,20 @@
           after:h-[15px]
           after:absolute
           after:bottom-0
-          after:left-1/2
-          sm:after:left-[60px]
-          after:bg-[#ffd481] after:-z-[1]
+          after:left-[100px]
+          after:bg-[#ffd481]
+          after:-z-[1]
         "
       >
         <span
           class="
+            sm:ml-0
+            ml-5
             bg-[#ffd481]
-            min-w-[50px] min-h-[50px]
+            w-[40px]
+            h-[40px]
+            min-w-[40px] min-h-[40px]
+            sm:w-[50px] sm:h-[50px] sm:min-w-[50px] sm:min-h-[50px]
             rounded-full
             flex
             items-center
@@ -73,7 +81,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9"
+            class="sm:w-9 sm:h-9 w-6 h-6"
           >
             <path
               stroke-linecap="round"
@@ -82,9 +90,9 @@
             />
           </svg>
         </span>
-        Testimoni Client
+        Testimoni
       </h2>
-      <p class="sm:text-left text-center ml-5 w-full">
+      <p class="sm:text-left sm:text-base text-sm text-center ml-5 w-full">
         Telah banyak client yang kami tangani dan banyak dari mereka puas dengan
         pelayanan yang kami sajikan. Ini adalah beberapa testimoni dari
         banyaknya kesan positif dari client untuk kami.
@@ -97,8 +105,9 @@
         grid-cols-1
         col-span-3
         -mt-16
+        sm:mt-7
         md:mt-0
-        lg:-mt-24
+        xl:-mt-24
         relative
         z-10
         gap-10
@@ -168,7 +177,7 @@
           </div>
         </div>
       </div>
-      <div class="relative sm:block hidden">
+      <div class="relative md:block hidden">
         <div class="bg-white sm:p-5 p-1 rounded shadow">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
@@ -199,7 +208,7 @@
           </div>
         </div>
       </div>
-      <div class="relative sm:block hidden">
+      <div class="relative md:block hidden">
         <div class="bg-white sm:p-5 p-1 rounded shadow w-[90%]">
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />

@@ -3,7 +3,7 @@
     <div class="block sm:flex items-center justify-between mb-10">
       <h2
         class="
-          text-4xl
+          text-3xl
           sm:text-5xl
           font-semibold
           tracking-wider
@@ -14,20 +14,18 @@
           z-[1]
           after:content-[''] after:w-[150px]
           sm:after:w-[300px]
-          after:h-[15px]
-          after:absolute
-          after:bottom-0
-          after:right-0
-          after:bg-[#ffd481]
-          after:-z-[1]
+          after:h-[15px] after:absolute after:bottom-0
+          sm:after:right-0
+          after:right-[100px] after:bg-[#ffd481] after:-z-[1]
         "
       >
         <span
           class="
             bg-[#ffd481]
-            w-[50px]
-            h-[50px]
-            min-w-[50px] min-h-[50px]
+            w-[40px]
+            h-[40px]
+            min-w-[40px] min-h-[40px]
+            sm:w-[50px] sm:h-[50px] sm:min-w-[50px] sm:min-h-[50px]
             rounded-full
             flex
             items-center
@@ -43,7 +41,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9"
+            class="sm:w-9 sm:h-9 h-6 w-6"
           >
             <path
               stroke-linecap="round"
@@ -289,9 +287,7 @@
       </div>
       <div class="overflow-hidden">
         <div
-          id="group2"
           class="
-            hidden
             bg-white
             w-full
             p-1
@@ -320,9 +316,7 @@
       </div>
       <div class="overflow-hidden">
         <div
-          id="group2"
           class="
-            hidden
             bg-white
             w-full
             p-1
@@ -349,12 +343,10 @@
           </a>
         </div>
       </div>
-      <div class="grid grid-row-2 gap-5">
+      <div class="hidden sm:grid grid-row-1 sm:grid-row-2 gap-5">
         <div class="overflow-hidden">
           <div
-            id="group2"
             class="
-              hidden
               bg-white
               w-full
               p-1
@@ -383,9 +375,7 @@
         </div>
         <div class="overflow-hidden">
           <div
-            id="group2"
             class="
-              hidden
               bg-white
               w-full
               p-1
@@ -414,9 +404,7 @@
       </div>
       <div class="overflow-hidden row-span-2">
         <div
-          id="group2"
           class="
-            hidden
             bg-white
             w-full
             p-1
@@ -445,9 +433,7 @@
       </div>
       <div class="overflow-hidden row-span-2">
         <div
-          id="group2"
           class="
-            hidden
             bg-white
             w-full
             p-1
@@ -475,20 +461,6 @@
         </div>
       </div>
     </figure>
-    <button
-      @click="seeMoreGallery()"
-      id="buttonForSeeMore"
-      class="mx-auto mt-10 block bg-[#ffd481] py-2 px-5 rounded text-white"
-    >
-      Lihat lebih lengkap
-    </button>
-    <button
-      @click="seeLessGallery()"
-      id="buttonForSeeLess"
-      class="mx-auto mt-10 hidden bg-[#ffd481] py-2 px-5 rounded text-white"
-    >
-      <a href="#gallery"> Lihat lebih sedikit </a>
-    </button>
   </section>
 </template>
 
@@ -500,21 +472,21 @@ export default {
     };
   },
   methods: {
-    seeMoreGallery() {
-      document.querySelectorAll("#group2").forEach((gallery) => {
-        gallery.classList.remove("hidden");
-      });
-      document.querySelector("#buttonForSeeMore").classList.add("hidden");
-      document.querySelector("#buttonForSeeLess").classList.remove("hidden");
-      document.querySelector("#buttonForSeeLess").classList.add("block");
-    },
-    seeLessGallery() {
-      document.querySelectorAll("#group2").forEach((gallery) => {
-        gallery.classList.add("hidden");
-      });
-      document.querySelector("#buttonForSeeMore").classList.remove("hidden");
-      document.querySelector("#buttonForSeeLess").classList.add("hidden");
-    },
+    // seeMoreGallery() {
+    //   document.querySelectorAll("#group2").forEach((gallery) => {
+    //     gallery.classList.remove("hidden");
+    //   });
+    //   document.querySelector("#buttonForSeeMore").classList.add("hidden");
+    //   document.querySelector("#buttonForSeeLess").classList.remove("hidden");
+    //   document.querySelector("#buttonForSeeLess").classList.add("block");
+    // },
+    // seeLessGallery() {
+    //   document.querySelectorAll("#group2").forEach((gallery) => {
+    //     gallery.classList.add("hidden");
+    //   });
+    //   document.querySelector("#buttonForSeeMore").classList.remove("hidden");
+    //   document.querySelector("#buttonForSeeLess").classList.add("hidden");
+    // },
     filterGalleryUsingCategoryImage() {
       this.openMoreGallery = true;
       let list = document.querySelectorAll("#filterButton");
