@@ -92,7 +92,17 @@
         </span>
         Testimoni
       </h2>
-      <p class="sm:text-left sm:text-base text-sm text-center ml-5 w-full">
+      <p
+        class="
+          sm:text-left sm:text-base
+          text-sm
+          sm:mt-0
+          -mt-5
+          text-center
+          ml-5
+          w-full
+        "
+      >
         Telah banyak client yang kami tangani dan banyak dari mereka puas dengan
         pelayanan yang kami sajikan. Ini adalah beberapa testimoni dari
         banyaknya kesan positif dari client untuk kami.
@@ -114,19 +124,29 @@
       "
     >
       <div class="relative w-[80%] mx-auto sm:m-0 sm:w-full">
-        <div class="bg-white sm:p-5 p-3 rounded shadow">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700 dark:text-white
+            sm:p-5
+            p-3
+            rounded
+            shadow
+          "
+        >
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
           <h4 class="text-xl font-semibold tracking-wider sm:ml-5 ml-7">
             Ilham Hafidz
           </h4>
-          <h5 class="text-sm text-gray-500 sm:ml-5 ml-7">Pelajar</h5>
+          <h5 class="text-sm text-gray-500 dark:text-gray-300 sm:ml-5 ml-7">
+            Pakt Wedding & Pre-Wedding
+          </h5>
           <p class="sm:text-sm text-[13px] mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            blanditiis corrupti ad dolores, doloribus, rem nihil provident
-            nesciunt maxime ratione iure, animi ut eos asperiores nemo enim
-            velit veniam porro.
+            Mantaaaaap, hasil jepretan-nya sangat bagus dan saya sangat puas.
+            Saya memilih paket untuk proses Wedding dan Pre-wedding saya dan
+            hasil-nya memang sangat memukau. Terimakasih Galuh Photography.
           </p>
           <div
             class="
@@ -147,17 +167,30 @@
         </div>
       </div>
       <div class="relative sm:block hidden">
-        <div class="bg-white sm:p-5 p-1 rounded shadow absolute bottom-0">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700 dark:text-white
+            sm:p-5
+            p-1
+            rounded
+            shadow
+            absolute
+            bottom-0
+          "
+        >
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
           <h4 class="text-xl font-semibold tracking-wider ml-5">
-            Ilham Hafidz
+            Imam Al-Fathah
           </h4>
-          <h5 class="text-sm text-gray-500 ml-5">Pelajar</h5>
+          <h5 class="text-sm text-gray-500 dark:text-gray-300 ml-5">
+            Paket Group
+          </h5>
           <p class="text-sm mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            blanditiis corrupti ad dolores,
+            Hasil jepretannya sangat bagus, pelayanan dan para photographer nya
+            juga ramah-ramah.
           </p>
           <div
             class="
@@ -178,17 +211,26 @@
         </div>
       </div>
       <div class="relative md:block hidden">
-        <div class="bg-white sm:p-5 p-1 rounded shadow">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700 dark:text-white
+            sm:p-5
+            p-1
+            rounded
+            shadow
+          "
+        >
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
-          <h4 class="text-xl font-semibold tracking-wider ml-5">
-            Ilham Hafidz
-          </h4>
-          <h5 class="text-sm text-gray-500 ml-5">Pelajar</h5>
+          <h4 class="text-xl font-semibold tracking-wider ml-5">Ian Andira</h4>
+          <h5 class="text-sm text-gray-500 dark:text-gray-300 ml-5">
+            Paket Family
+          </h5>
           <p class="text-sm mt-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-            blanditiis corrupti ad dolores,
+            Harga di setiap paketnya saya rasa sudah sangat cukup murah untuk
+            hasil jepretan yang bagus seperti ini.
           </p>
           <div
             class="
@@ -209,19 +251,31 @@
         </div>
       </div>
       <div class="relative md:block hidden">
-        <div class="bg-white sm:p-5 p-1 rounded shadow w-[90%]">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700 dark:text-white
+            sm:p-5
+            p-1
+            rounded
+            shadow
+            w-[90%]
+          "
+        >
           <div class="absolute left-[-25px]">
             <img src="../assets/img/user.png" class="w-[50px]" />
           </div>
           <h4 class="text-xl font-semibold tracking-wider ml-5">
-            Ilham Hafidz
+            Agran Pujiana
           </h4>
-          <h5 class="text-sm text-gray-500 ml-5">Pelajar</h5>
+          <h5 class="text-sm text-gray-500 dark:text-gray-300 ml-5">
+            Paket Wedding
+          </h5>
           <p class="text-sm mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto
-            ipsum tenetur ad voluptates illo quis accusantium tempora officia
-            neque debitis quae optio amet consectetur velit, beatae repellat
-            ducimus eos animi.
+            Terimakasih Tim dari Galuh Photography sudah membantu menyukseskan
+            acara pernikahan saya. Hasil foto-fotonya sangat bagus, dengan foto
+            album yang sangat rapih dan baik juga. Pelayanan dari
+            photographernya juga sangat ramah dan baik.
           </p>
           <div
             class="

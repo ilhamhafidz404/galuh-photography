@@ -7,6 +7,7 @@ import testimoni from "./components/testimoni.vue";
 import myFooter from "./components/footer.vue";
 import price from "./components/price.vue";
 import hamburgerMenu from "./components/menu.vue";
+import darkMode from "./components/darkMode.vue";
 </script>
 <template>
   <main>

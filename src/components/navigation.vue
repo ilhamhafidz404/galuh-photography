@@ -1,9 +1,13 @@
+<script setup>
+import darkMode from "./darkMode.vue";
+</script>
 <template>
   <nav class="p-3 flex justify-between items-center w-[90%] mx-auto">
     <div class="flex items-center">
       <div
         class="
           bg-[#ffd481]/70
+          dark:bg-[#ffd481]
           mr-7
           w-[50px]
           h-[50px]
@@ -16,7 +20,7 @@
       >
         <img src="../assets/img/gp_logo.png" class="w-[50px]" />
       </div>
-      <ul class="hidden sm:flex text-gray-600">
+      <ul class="hidden sm:flex text-gray-600 dark:text-white">
         <li>
           <a href="#gallery">Gallery</a>
         </li>
@@ -35,7 +39,8 @@
       </ul>
     </div>
     <div class="z-[60]">
-      <button
+      <darkMode></darkMode>
+      <!-- <button
         id="buttonForToggleHamburgerMenu"
         @click="sendRequestOpenHamburgerMenu()"
       >
@@ -53,7 +58,7 @@
             d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
           />
         </svg>
-      </button>
+      </button> -->
     </div>
   </nav>
 </template>

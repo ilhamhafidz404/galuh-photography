@@ -3,6 +3,7 @@
     <div class="block sm:flex items-center justify-between mb-10">
       <h2
         class="
+          dark:text-white
           text-3xl
           sm:text-5xl
           font-semibold
@@ -144,12 +145,14 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             max-h-[300px]
             md:max-h-max
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             overflow-hidden
@@ -173,12 +176,14 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             max-h-[150px]
             md:max-h-max
             border
+            dark:border-slate-700
             overflow-hidden
             rounded
             itemBox
@@ -202,10 +207,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             max-h-[150px]
             md:max-h-max
@@ -231,10 +238,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -260,10 +269,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]
@@ -289,10 +300,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -318,10 +331,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -348,10 +363,12 @@
           <div
             class="
               bg-white
+              dark:bg-slate-700
               w-full
               p-1
               sm:p-2
               border
+              dark:border-slate-700
               rounded
               itemBox
               max-h-[150px]
@@ -377,10 +394,12 @@
           <div
             class="
               bg-white
+              dark:bg-slate-700
               w-full
               p-1
               sm:p-2
               border
+              dark:border-slate-700
               rounded
               itemBox
               max-h-[150px]
@@ -406,10 +425,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]
@@ -435,10 +456,12 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
+            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]
