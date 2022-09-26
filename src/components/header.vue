@@ -47,15 +47,24 @@
         <span
           class="
             relative
-            before:content-['']
-            before:absolute
-            before:top-0
-            before:left-[-5%]
-            before:w-[110%]
-            before:h-full
-            before:border-4
-            before:border-[#ffd481]
-            before:rounded-[100%]
+            sm:before:content-['']
+            sm:before:absolute
+            sm:before:top-0
+            sm:before:left-[-5%]
+            sm:before:w-[110%]
+            sm:before:h-full
+            sm:before:border-4
+            sm:before:border-[#ffd481]
+            sm:before:rounded-[100%]
+            after:content-['']
+            after:absolute
+            after:top-0
+            after:left-[-5%]
+            after:w-[110%]
+            after:h-[15px]
+            after:bg-[#ffd481]
+            after:mt-[30px]
+            after:z-[-10]
           "
           >Beautiful</span
         >
