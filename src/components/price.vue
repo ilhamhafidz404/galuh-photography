@@ -296,7 +296,7 @@
         </a>
         <img
           class="object-center h-full object-cover w-full"
-          src="../assets/img/poster/wedding.jpg"
+          src="../assets/img/poster/prewedding-outdoor.jpg"
           alt=""
         />
       </div>
