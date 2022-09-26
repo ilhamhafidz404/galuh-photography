@@ -259,49 +259,7 @@
         />
       </div>
     </div>
-    <div
-      id="acara-wedding"
-      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
-    >
-      <div
-        class="
-          bg-white
-          w-[80%]
-          md:max-w-[350px]
-          h-[400px]
-          md:h-[500px] md:max-h-[600px]
-          p-1
-          absolute
-          top-1/2
-          left-1/2
-          -translate-x-1/2 -translate-y-1/2
-          rounded
-        "
-      >
-        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-10 h-10"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
-        </a>
-        <!--  -->
-        <img
-          class="object-center h-full object-cover w-full"
-          src="../assets/img/poster/wedding.jpg"
-          alt=""
-        />
-      </div>
-    </div>
+
     <!--  -->
     <div
       id="bersama-keluarga"
