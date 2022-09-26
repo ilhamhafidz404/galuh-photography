@@ -1,4 +1,481 @@
 <template>
+  <section id="price-overlay">
+    <div
+      id="reguler-singel"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/single-studio.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="reguler-singel-outdoor"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/single-outdoor.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="reguler-couple"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/couple-studio.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="reguler-couple-outdoor"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/couple-outdoor.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--  -->
+    <div
+      id="acara-prewed"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/prewedding-studio.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="acara-prewed-outdoor"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/prewedding-outdoor.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="acara-wedding"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/wedding.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!--  -->
+    <div
+      id="bersama-keluarga"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/keluarga-studio.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="bersama-keluarga-outdoor"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/keluarga-outdoor.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="bersama-group"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/group-studio.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      id="bersama-group-outdoor"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[80%]
+          md:max-w-[350px]
+          h-[400px]
+          md:h-[500px] md:max-h-[600px]
+          p-1
+          absolute
+          top-1/2
+          left-1/2
+          -translate-x-1/2 -translate-y-1/2
+          rounded
+        "
+      >
+        <a href="#price" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/poster/group-outdoor.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </section>
   <section id="price" class="w-[90%] mx-auto mt-32">
     <h2
       class="
@@ -145,9 +622,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/single-studio.jpg"
-                    data-lightbox="poster-single-studio"
-                    data-title="My caption"
+                    href="#reguler-singel"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -197,9 +672,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/single-outdoor.jpg"
-                    data-lightbox="poster-single-outdoor"
-                    data-title="My caption"
+                    href="#reguler-singel-outdoor"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -249,9 +722,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/couple-studio.jpg"
-                    data-lightbox="poster-couple-studio"
-                    data-title="My caption"
+                    href="#reguler-couple"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -301,9 +772,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/couple-outdoor.jpg"
-                    data-lightbox="poster-couple-outdoor"
-                    data-title="My caption"
+                    href="#reguler-couple-outdoor"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -443,9 +912,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/prewedding-studio.jpg"
-                    data-lightbox="poster-prewedding-studio"
-                    data-title="My caption"
+                    href="#acara-prewed"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -498,9 +965,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/prewedding-outdoor.jpg"
-                    data-lightbox="poster-prewedding-outdoor"
-                    data-title="My caption"
+                    href="#acara-prewed-outdoor"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -550,9 +1015,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/wedding.jpg"
-                    data-lightbox="poster-wedding"
-                    data-title="My caption"
+                    href="#acara-wedding"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -702,9 +1165,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/keluarga-studio.jpg"
-                    data-lightbox="poster-keluarga-studio"
-                    data-title="My caption"
+                    href="#bersama-keluarga"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -754,9 +1215,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/keluarga-outdoor.jpg"
-                    data-lightbox="poster-keluarga-outdoor"
-                    data-title="My caption"
+                    href="#bersama-keluarga-outdoor"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -806,9 +1265,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/group-studio.jpg"
-                    data-lightbox="poster-group-studio"
-                    data-title="My caption"
+                    href="#bersama-group"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -858,9 +1315,7 @@
                       justify-center
                       ml-3
                     "
-                    href="/src/assets/img/poster/group-outdoor.jpg"
-                    data-lightbox="poster-group-outdoor"
-                    data-title="My caption"
+                    href="#bersama-group-outdoor"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

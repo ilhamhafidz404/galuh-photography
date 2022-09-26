@@ -7,9 +7,10 @@
       <div
         class="
           bg-white
-          max-w-[500px]
-          h-[600px]
-          max-h-[600px]
+          w-[80%]
+          md:max-w-[500px]
+          h-[500px]
+          md:h-[600px] md:max-h-[600px]
           p-1
           absolute
           top-1/2
@@ -18,7 +19,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -40,17 +41,14 @@
           src="../assets/img/gallery/potrait1.jpg"
           alt=""
         />
-        <a
-          href="#gallery2"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery2" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -68,8 +66,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -79,7 +80,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -96,17 +97,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery1"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery1" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -122,7 +120,13 @@
         />
         <a
           href="#gallery3"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="
+            absolute
+            bottom-[-70px]
+            left-[50px]
+            -translate-y-1/2
+            text-white
+          "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +134,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -148,8 +152,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -159,7 +166,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -176,17 +183,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery2"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery2" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -202,7 +206,7 @@
         />
         <a
           href="#gallery4"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +214,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -228,8 +232,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -239,7 +246,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -256,17 +263,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery3"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery3" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -282,7 +286,7 @@
         />
         <a
           href="#gallery5"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +294,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -308,9 +312,10 @@
       <div
         class="
           bg-white
-          max-w-[500px]
-          h-[600px]
-          max-h-[600px]
+          w-[80%]
+          md:max-w-[500px]
+          h-[500px]
+          md:h-[600px] md:max-h-[600px]
           p-1
           absolute
           top-1/2
@@ -319,7 +324,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -336,17 +341,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery4"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery4" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -362,7 +364,7 @@
         />
         <a
           href="#gallery6"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -370,7 +372,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -388,8 +390,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -399,7 +404,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -416,17 +421,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery5"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery5" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -442,7 +444,7 @@
         />
         <a
           href="#gallery7"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -450,7 +452,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -468,8 +470,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -479,7 +484,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -496,17 +501,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery6"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery6" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -522,7 +524,7 @@
         />
         <a
           href="#gallery8"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -530,7 +532,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -548,8 +550,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -559,7 +564,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -576,17 +581,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery7"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery7" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -602,7 +604,7 @@
         />
         <a
           href="#gallery9"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -610,7 +612,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -628,8 +630,11 @@
       <div
         class="
           bg-white
-          max-w-[900px]
-          h-[500px]
+          w-[90%]
+          md:w-[580px]
+          lg:max-w-[900px]
+          h-[300px]
+          md:h-[500px]
           max-h-[500px]
           p-1
           absolute
@@ -639,7 +644,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -656,17 +661,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery8"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery8" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -682,7 +684,7 @@
         />
         <a
           href="#gallery10"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -690,7 +692,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -708,9 +710,10 @@
       <div
         class="
           bg-white
-          max-w-[500px]
-          h-[600px]
-          max-h-[600px]
+          w-[80%]
+          md:max-w-[500px]
+          h-[500px]
+          md:h-[600px] md:max-h-[600px]
           p-1
           absolute
           top-1/2
@@ -719,7 +722,7 @@
           rounded
         "
       >
-        <a href="#gallery" class="absolute -right-[50px] text-white">
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -736,17 +739,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery9"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery9" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -762,7 +762,7 @@
         />
         <a
           href="#gallery11"
-          class="absolute top-1/2 -right-[80px] -translate-y-1/2 text-white"
+          class="absolute bottom-[-50px] left-[50px] text-white"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -770,7 +770,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
@@ -788,9 +788,10 @@
       <div
         class="
           bg-white
-          max-w-[500px]
-          h-[600px]
-          max-h-[600px]
+          w-[80%]
+          md:max-w-[500px]
+          h-[500px]
+          md:h-[600px] md:max-h-[600px]
           p-1
           absolute
           top-1/2
@@ -816,17 +817,14 @@
           </svg>
         </a>
         <!--  -->
-        <a
-          href="#gallery10"
-          class="absolute top-1/2 -left-[80px] -translate-y-1/2 text-white"
-        >
+        <a href="#gallery10" class="absolute bottom-[-50px] left-0 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-16 h-16"
+            class="w-10 h-10"
           >
             <path
               stroke-linecap="round"
