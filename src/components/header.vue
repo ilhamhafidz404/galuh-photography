@@ -56,7 +56,8 @@
             sm:before:border-4
             sm:before:border-[#ffd481]
             sm:before:rounded-[100%]
-            after:content-['']
+            after:content-[''] after:block
+            sm:after:hidden
             after:absolute
             after:top-0
             after:left-[-5%]
