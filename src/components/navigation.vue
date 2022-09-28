@@ -7,7 +7,6 @@ import darkMode from "./darkMode.vue";
       <div
         class="
           bg-[#ffd481]/70
-          dark:bg-[#ffd481]
           mr-7
           w-[50px]
           h-[50px]
@@ -20,7 +19,7 @@ import darkMode from "./darkMode.vue";
       >
         <img src="../assets/img/gp_logo.png" class="w-[50px]" />
       </div>
-      <ul class="hidden sm:flex text-gray-600 dark:text-white">
+      <ul class="hidden sm:flex text-gray-600">
         <li>
           <a href="#gallery">Gallery</a>
         </li>

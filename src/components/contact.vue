@@ -45,7 +45,6 @@
           tracking-wider
           text-white
           sm:text-gray-800
-          dark:text-white
           md:text-white
           lg:text-gray-800
           mb-10
@@ -113,7 +112,6 @@
             id="whatsapp"
             class="
               bg-white
-              dark:bg-slate-700
               sm:py-10 sm:px-16
               py-5
               px-10
@@ -131,19 +129,10 @@
               alt="whatsapp logo"
               class="w-[70px] mx-auto"
             />
-            <h3
-              class="
-                text-xl
-                sm:text-2xl
-                mt-5
-                font-semibold
-                text-gray-800
-                dark:text-white
-              "
-            >
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
               Hubungi kami lewat Whatsapp
             </h3>
-            <p class="mt-3 text-xs sm:text-sm text-gray-800 dark:text-white">
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
               Hubungi kami lewat Whatsapp untuk membantu mengabadikan moment
               anda.
             </p>
@@ -165,7 +154,6 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-white
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#4caf50]
@@ -183,7 +171,6 @@
             id="instagram"
             class="
               bg-white
-              dark:bg-slate-700
               sm:py-10 sm:px-16
               py-5
               px-10
@@ -218,7 +205,6 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-white
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#d0245d]
@@ -236,19 +222,10 @@
               alt="instagram logo"
               class="w-[70px] mx-auto"
             />
-            <h3
-              class="
-                text-xl
-                sm:text-2xl
-                mt-5
-                font-semibold
-                text-gray-800
-                dark:text-white
-              "
-            >
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
               Hubungi kami lewat Instagram
             </h3>
-            <p class="mt-3 text-xs sm:text-sm text-gray-800 dark:text-white">
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
               Hubungi kami lewat Instagram untuk membantu mengabadikan moment
               anda.
             </p>
@@ -277,7 +254,6 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-white
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#d0245d]
@@ -295,7 +271,6 @@
             id="youtube"
             class="
               bg-white
-              dark:bg-slate-700
               sm:py-10 sm:px-16
               py-5
               px-10
@@ -330,7 +305,6 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-white
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#ff0101]
@@ -348,19 +322,10 @@
               alt="youtube logo"
               class="w-[70px] mx-auto"
             />
-            <h3
-              class="
-                text-xl
-                sm:text-2xl
-                mt-5
-                font-semibold
-                text-gray-800
-                dark:text-white
-              "
-            >
+            <h3 class="text-xl sm:text-2xl mt-5 font-semibold text-gray-800">
               Ikuti kami di Youtube
             </h3>
-            <p class="mt-3 text-xs sm:text-sm text-gray-800 dark:text-white">
+            <p class="mt-3 text-xs sm:text-sm text-gray-800">
               Subscribe Youtube Channel kami untuk melihat kegiatan photography
               kami
             </p>
@@ -372,7 +337,6 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             p-4
             shadow
             rounded

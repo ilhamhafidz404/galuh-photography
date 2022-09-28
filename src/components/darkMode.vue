@@ -52,12 +52,12 @@
 export default {
   methods: {
     darkModeToggle() {
-      const body = document.querySelector("body");
+      // const body = document.querySelector("body");
       const moon = document.querySelector("#moon");
       const sun = document.querySelector("#sun");
-      body.classList.toggle("dark");
-      body.classList.toggle("bg-[#fdf9f2]");
-      body.classList.toggle("bg-slate-800");
+      // body.classList.toggle("dark");
+      // body.classList.toggle("bg-[#fdf9f2]");
+      // body.classList.toggle("bg-slate-800");
       moon.classList.toggle("hidden");
       sun.classList.toggle("hidden");
     },

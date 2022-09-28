@@ -845,7 +845,6 @@
     <div class="block sm:flex items-center justify-between mb-10">
       <h2
         class="
-          dark:text-white
           text-3xl
           sm:text-5xl
           font-semibold
@@ -901,14 +900,12 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             max-h-[300px]
             md:max-h-max
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             overflow-hidden
@@ -918,7 +915,7 @@
           <a href="#gallery1">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/potrait1.jpg"
+              src="../assets/img/gallery/thumbs/potrait1.jpg"
               alt=""
             />
           </a>
@@ -928,14 +925,12 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             max-h-[150px]
             md:max-h-max
             border
-            dark:border-slate-700
             overflow-hidden
             rounded
             itemBox
@@ -944,7 +939,7 @@
           <a href="#gallery2">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/landscape1.jpg"
+              src="../assets/img/gallery/thumbs/landscape1.jpg"
               alt=""
             />
           </a>
@@ -954,12 +949,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             max-h-[150px]
             md:max-h-max
@@ -971,7 +964,7 @@
           <a href="#gallery3">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/landscape2.jpg"
+              src="../assets/img/gallery/thumbs/landscape2.jpg"
               alt=""
             />
           </a>
@@ -981,12 +974,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -998,7 +989,7 @@
           <a href="#gallery4">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/landscape3.jpg"
+              src="../assets/img/gallery/thumbs/landscape3.jpg"
               alt=""
             />
           </a>
@@ -1008,12 +999,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]
@@ -1025,7 +1014,7 @@
           <a href="#gallery5">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/potrait2.jpg"
+              src="../assets/img/gallery/thumbs/potrait2.jpg"
               alt=""
             />
           </a>
@@ -1035,12 +1024,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -1052,7 +1039,7 @@
           <a href="#gallery6">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/landscape4.jpg"
+              src="../assets/img/gallery/thumbs/landscape4.jpg"
               alt=""
             />
           </a>
@@ -1062,12 +1049,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[150px]
@@ -1079,7 +1064,7 @@
           <a href="#gallery7">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/landscape5.jpg"
+              src="../assets/img/gallery/thumbs/landscape5.jpg"
               alt=""
             />
           </a>
@@ -1090,12 +1075,10 @@
           <div
             class="
               bg-white
-              dark:bg-slate-700
               w-full
               p-1
               sm:p-2
               border
-              dark:border-slate-700
               rounded
               itemBox
               max-h-[150px]
@@ -1107,7 +1090,7 @@
             <a href="#gallery8">
               <img
                 class="h-full object-cover"
-                src="../assets/img/gallery/landscape6.jpg"
+                src="../assets/img/gallery/thumbs/landscape6.jpg"
                 alt=""
               />
             </a>
@@ -1117,12 +1100,10 @@
           <div
             class="
               bg-white
-              dark:bg-slate-700
               w-full
               p-1
               sm:p-2
               border
-              dark:border-slate-700
               rounded
               itemBox
               max-h-[150px]
@@ -1133,7 +1114,7 @@
             <a href="#gallery9">
               <img
                 class="h-full object-cover"
-                src="../assets/img/gallery/landscape6.jpg"
+                src="../assets/img/gallery/thumbs/landscape6.jpg"
                 alt=""
               />
             </a>
@@ -1144,12 +1125,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]
@@ -1161,7 +1140,7 @@
           <a href="#gallery10">
             <img
               class="object-center h-full object-cover w-full"
-              src="../assets/img/gallery/potrait4.jpg"
+              src="../assets/img/gallery/thumbs/potrait4.jpg"
               alt=""
             />
           </a>
@@ -1171,12 +1150,10 @@
         <div
           class="
             bg-white
-            dark:bg-slate-700
             w-full
             p-1
             sm:p-2
             border
-            dark:border-slate-700
             rounded
             itemBox
             max-h-[300px]

@@ -29,7 +29,6 @@
     <div class="col-span-3 sm:mt-0 mt-[330px]">
       <h1
         class="
-          dark:text-white
           text-5xl
           md:text-7xl
           font-semibold
@@ -72,8 +71,8 @@
         <br />
         Moments
       </h1>
-      <hr class="border border-gray-800 dark:border-[#ffd481] my-10" />
-      <section class="grid lg:grid-cols-2 grid-cols-1 gap-7 dark:text-white">
+      <hr class="border border-gray-800 my-10" />
+      <section class="grid lg:grid-cols-2 grid-cols-1 gap-7">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +92,7 @@
           <h3 class="text-xl font-semibold mt-3 mb-2">
             Outdoor dan Studio Photo
           </h3>
-          <p class="text-sm text-gray-600 dark:text-gray-300">
+          <p class="text-sm text-gray-600">
             Solo ? Duo atau Family Photo juga bisa. Tersedia dengan berbagai
             background photo. Juga dapat dibantu untuk mendapat pose yang bagus.
           </p>
@@ -120,7 +119,7 @@
           </svg>
 
           <h3 class="text-xl font-semibold mt-3 mb-2">Fotografer Moments</h3>
-          <p class="text-sm text-gray-600 dark:text-gray-300">
+          <p class="text-sm text-gray-600">
             Sudah menerima banyak client dari berbagai kota untuk membantu
             mengabadikan momen Pernikahan, Kelulusan ataupun Family Photo.
           </p>
