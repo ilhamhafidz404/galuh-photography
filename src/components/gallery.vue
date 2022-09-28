@@ -894,6 +894,25 @@
         </span>
         Gallery Photography
       </h2>
+      <router-link
+        :to="{ name: 'gallery' }"
+        class="
+          border-[3px]
+          hover:border-2
+          duration-300
+          shadow-[5px_5px_0_0px_#ffd481]
+          hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+          border-gray-700
+          hover:border-transparent
+          px-5
+          py-2
+          text-gray-700
+          hover:text-white
+          mr-5
+        "
+      >
+        Lihat Lebih Lengkap
+      </router-link>
     </div>
     <figure class="grid grid-cols-2 sm:grid-cols-3 gap-1 sm:gap-5">
       <div class="row-span-2 overflow-hidden">

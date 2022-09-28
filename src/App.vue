@@ -1,23 +1,17 @@
 <script setup>
 import navigation from "./components/navigation.vue";
-import myHeader from "./components/header.vue";
-import gallery from "./components/gallery.vue";
-import contact from "./components/contact.vue";
-import testimoni from "./components/testimoni.vue";
-import myFooter from "./components/footer.vue";
-import price from "./components/price.vue";
 import hamburgerMenu from "./components/menu.vue";
-import darkMode from "./components/darkMode.vue";
+import myHeader from "./components/header.vue";
+import myFooter from "./components/footer.vue";
 </script>
 <template>
   <main>
     <navigation @getRequestOpenHamburgerMenu="openHamburgerMenu"></navigation>
     <hamburgerMenu></hamburgerMenu>
     <myHeader></myHeader>
-    <gallery></gallery>
-    <testimoni></testimoni>
-    <price></price>
-    <contact></contact>
+    <!--  -->
+    <router-view></router-view>
+    <!--  -->
     <myFooter></myFooter>
   </main>
 </template>

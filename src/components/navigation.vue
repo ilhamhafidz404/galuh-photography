@@ -17,7 +17,9 @@ import darkMode from "./darkMode.vue";
           shadow-sm
         "
       >
-        <img src="../assets/img/gp_logo.png" class="w-[50px]" />
+        <router-link :to="{ name: 'home' }">
+          <img src="../assets/img/gp_logo.png" class="w-[50px]" />
+        </router-link>
       </div>
       <ul class="hidden sm:flex text-gray-600">
         <li>
