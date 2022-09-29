@@ -858,6 +858,8 @@
           sm:after:w-[300px]
           after:h-[15px] after:absolute after:bottom-0
           sm:after:right-0
+          md:after:right-[100px]
+          xl:after:right-0
           after:right-[100px] after:bg-[#ffd481] after:-z-[1]
         "
       >
@@ -897,6 +899,10 @@
       <router-link
         :to="{ name: 'gallery' }"
         class="
+          text-center
+          whitespace-nowrap
+          md:inline
+          hidden
           border-[3px]
           hover:border-2
           duration-300
@@ -1191,6 +1197,30 @@
         </div>
       </div>
     </figure>
+    <router-link
+      :to="{ name: 'gallery' }"
+      class="
+        md:hidden
+        inline-block
+        w-full
+        text-center
+        mt-10
+        border-[3px]
+        hover:border-2
+        duration-300
+        shadow-[5px_5px_0_0px_#ffd481]
+        hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
+        border-gray-700
+        hover:border-transparent
+        px-5
+        py-2
+        text-gray-700
+        hover:text-white
+        mr-5
+      "
+    >
+      Lihat Lebih Lengkap
+    </router-link>
   </section>
 </template>
 
