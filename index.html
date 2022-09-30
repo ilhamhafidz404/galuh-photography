@@ -20,12 +20,52 @@
     <div id="app" class="w-screen relative !overflow-x-hidden"></div>
     <script type="module" src="/src/main.js"></script>
     <script src="/src/assets/lightbox-plus-jquery.min.js"></script>
+    <script async defer src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>
     <script>
-      lightbox.option({
-        resizeDuration: 500,
-        wrapAround: true,
-        disableScrolling: true,
-      });
+      // lightbox.option({
+      //   resizeDuration: 500,
+      //   wrapAround: true,
+      //   disableScrolling: true,
+      // });
+      
+      // function filterGalleryUsingCategoryImage() {
+      //   let list = document.querySelectorAll("#filterButton");
+      //   let itemBox = document.querySelectorAll(".itemBox");
+      //   for (let i = 0; i < list.length; i++) {
+      //     list[i].addEventListener("click", function () {
+      //       for (let j = 0; j < list.length; j++) {
+      //         list[j].classList.remove("active");
+      //         list[j].classList.add("border-[3px]");
+      //         list[j].classList.add("shadow-[5px_5px_0_0px_#ffd481]");
+      //         list[j].classList.add("border-gray-700");
+      //         list[j].classList.remove("border-2");
+      //         list[j].classList.remove("shadow-[0_0_12px_#ffd481]");
+      //         list[j].classList.remove("border-transparent");
+      //         list[j].classList.remove("text-white");
+      //         list[j].classList.remove("bg-[#ffd481]");
+      //       }
+      //       this.classList.add("active");
+      //       this.classList.remove("border-[3px]");
+      //       this.classList.remove("shadow-[5px_5px_0_0px_#ffd481]");
+      //       this.classList.remove("border-gray-700");
+      //       this.classList.add("border-2");
+      //       this.classList.add("shadow-[0_0_12px_#ffd481]");
+      //       this.classList.add("border-transparent");
+      //       this.classList.add("text-white");
+      //       this.classList.add("bg-[#ffd481]");
+
+      //       let dataFilter = this.getAttribute("data-filter");
+      //       for (let k = 0; k < itemBox.length; k++) {
+      //         itemBox[k].classList.add("hidden");
+      //         if (
+      //           itemBox[k].getAttribute("data-item") == dataFilter ||
+      //           dataFilter == "all"
+      //         ) {
+      //           itemBox[k].classList.remove("hidden");
+      //         }
+      //       }
+      //     });
+      //   }
+      // }
     </script>
-  </body>
 </html>

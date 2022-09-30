@@ -861,6 +861,7 @@
           md:after:right-[100px]
           xl:after:right-0
           after:right-[100px] after:bg-[#ffd481] after:-z-[1]
+          dark:text-gray-100
         "
       >
         <span
@@ -909,11 +910,14 @@
           shadow-[5px_5px_0_0px_#ffd481]
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
+          dark:border-white
           hover:border-transparent
+          dark:hover:border-transparent
           px-5
           py-2
           text-gray-700
           hover:text-white
+          dark:text-gray-100
           mr-5
         "
       >
@@ -925,6 +929,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             max-h-[300px]
             md:max-h-max
@@ -950,6 +955,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -974,6 +980,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -999,6 +1006,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1024,6 +1032,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1049,6 +1058,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1074,6 +1084,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1100,6 +1111,7 @@
           <div
             class="
               bg-white
+              dark:bg-slate-700 dark:border-0
               w-full
               p-1
               sm:p-2
@@ -1125,6 +1137,7 @@
           <div
             class="
               bg-white
+              dark:bg-slate-700 dark:border-0
               w-full
               p-1
               sm:p-2
@@ -1150,6 +1163,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1175,6 +1189,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700 dark:border-0
             w-full
             p-1
             sm:p-2
@@ -1211,11 +1226,14 @@
         shadow-[5px_5px_0_0px_#ffd481]
         hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
         border-gray-700
+        dark:border-white
         hover:border-transparent
+        dark:hover:border-transparent
         px-5
         py-2
         text-gray-700
         hover:text-white
+        dark:text-gray-100
         mr-5
       "
     >

@@ -495,6 +495,7 @@
         after:right-0
         after:bg-[#ffd481]
         after:-z-[1]
+        dark:text-gray-100
       "
     >
       <span
@@ -551,7 +552,15 @@
       "
     >
       <div>
-        <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700
+            border-t-[6px] border-[#ffd481]
+            rounded
+            shadow
+          "
+        >
           <div class="px-7 py-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -567,25 +576,43 @@
                 d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
               />
             </svg>
-            <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+            <h3
+              class="
+                text-center text-3xl
+                font-semibold
+                mt-3
+                text-gray-700
+                dark:text-gray-100
+              "
+            >
               Foto Reguler
             </h3>
-            <p class="text-xs text-gray-600 mt-2 text-center">
+            <p
+              class="text-xs text-gray-600 mt-2 text-center dark:text-gray-200"
+            >
               Untuk kalian yang mempunyai keperluan foto untuk pribadi,
               keperluan formal seperti foto ijazah ataupun ingin mengabadikan
               moment bersama pasangan.
             </p>
-            <table class="w-full mt-5">
+            <table class="w-full mt-5 dark:text-gray-100">
               <tr class="border-b-2">
                 <td>
                   Singel
-                  <span class="text-xs text-gray-400 sm:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      sm:inline-block
+                      block
+                    "
                     >(studio)</span
                   >
                 </td>
                 <td class="text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">99 - 199</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >99 - 199</span
+                  >
                   rb
                 </td>
                 <td>
@@ -627,13 +654,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Singel
-                  <span class="text-xs text-gray-400 sm:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      sm:inline-block
+                      block
+                    "
                     >(outdoor)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">79 - 189</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >79 - 189</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -675,13 +710,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Couple
-                  <span class="text-xs text-gray-400 sm:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      sm:inline-block
+                      block
+                    "
                     >(studio)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">129 - 249</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >129 - 249</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -723,13 +766,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Couple
-                  <span class="text-xs text-gray-400 sm:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      sm:inline-block
+                      block
+                    "
                     >(outdoor)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">99 - 250</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >99 - 250</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -777,11 +828,14 @@
                 text-center
                 duration-500
                 border-[3px] border-gray-800
+                dark:border-white
                 hover:border-transparent
+                dark:hover:border-transparent
                 shadow-[7px_7px_0_0_#ffd481]
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
+                dark:text-gray-100
                 text-gray-800
                 hover:text-white
                 py-3
@@ -790,7 +844,7 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 px-5 py-4">
+          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -813,7 +867,15 @@
         </div>
       </div>
       <div>
-        <div class="bg-white border-t-[6px] border-[#ffd481] rounded shadow">
+        <div
+          class="
+            bg-white
+            dark:bg-slate-700
+            border-t-[6px] border-[#ffd481]
+            rounded
+            shadow
+          "
+        >
           <div class="px-7 py-5">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -829,24 +891,40 @@
                 d="M21 7.5l-2.25-1.313M21 7.5v2.25m0-2.25l-2.25 1.313M3 7.5l2.25-1.313M3 7.5l2.25 1.313M3 7.5v2.25m9 3l2.25-1.313M12 12.75l-2.25-1.313M12 12.75V15m0 6.75l2.25-1.313M12 21.75V19.5m0 2.25l-2.25-1.313m0-16.875L12 2.25l2.25 1.313M21 14.25v2.25l-2.25 1.313m-13.5 0L3 16.5v-2.25"
               />
             </svg>
-            <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+            <h3
+              class="
+                text-center text-3xl
+                font-semibold
+                mt-3
+                text-gray-700
+                dark:text-gray-100
+              "
+            >
               Foto Acara
             </h3>
-            <p class="text-xs text-gray-600 mt-2 text-center">
+            <p
+              class="text-xs text-gray-600 dark:text-gray-200 mt-2 text-center"
+            >
               Kami akan membantu anda untuk mengabadikan dan mebantuk acara
               anda. Untuk paket acara lain bisa hubungi langsung via WA.
             </p>
-            <table class="w-full mt-5">
+            <table class="w-full mt-5 dark:text-gray-100">
               <tr class="border-b-2">
                 <td>
                   Prewedding
-                  <span class="text-xs text-gray-400 block">(studio)</span>
+                  <span class="text-xs text-gray-400 dark:text-gray-200 block"
+                    >(studio)</span
+                  >
                 </td>
                 <td class="text-right">
                   Rp.
                   <span class="font-bold text-xl text-gray-70">650 </span>rb
-                  <span class="font-bold text-xl text-gray-700"> - </span>
-                  <span class="font-bold text-xl text-gray-700">1.3 </span>jt
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                    -
+                  </span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >1.3 </span
+                  >jt
                 </td>
                 <td>
                   <a
@@ -887,13 +965,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Prewedding
-                  <span class="text-xs text-gray-400 block">(outdoor)</span>
+                  <span class="text-xs text-gray-400 dark:text-gray-200 block"
+                    >(outdoor)</span
+                  >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">550 </span>rb
-                  <span class="font-bold text-xl text-gray-700"> - </span>
-                  <span class="font-bold text-xl text-gray-700">1.2 </span>jt
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >550 </span
+                  >rb
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                    -
+                  </span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >1.2 </span
+                  >jt
                 </td>
                 <td class="pt-5">
                   <a
@@ -935,9 +1021,15 @@
                 <td class="pt-5">Wedding</td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">450 </span>rb
-                  <span class="font-bold text-xl text-gray-700"> - </span>
-                  <span class="font-bold text-xl text-gray-700">1.2 </span>jt
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >450 </span
+                  >rb
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                    -
+                  </span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >1.2 </span
+                  >jt
                 </td>
                 <td class="pt-5">
                   <a
@@ -984,11 +1076,14 @@
                 text-center
                 duration-500
                 border-[3px] border-gray-800
+                dark:border-white
                 hover:border-transparent
+                dark:hover:border-transparent
                 shadow-[7px_7px_0_0_#ffd481]
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
+                dark:text-gray-100
                 text-gray-800
                 hover:text-white
                 py-3
@@ -997,7 +1092,7 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 px-5 py-4">
+          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -1023,6 +1118,7 @@
         <div
           class="
             bg-white
+            dark:bg-slate-700
             border-t-[6px]
             md:w-[60%]
             lg:w-full
@@ -1047,15 +1143,25 @@
                 d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"
               />
             </svg>
-            <h3 class="text-center text-3xl font-semibold mt-3 text-gray-700">
+            <h3
+              class="
+                text-center text-3xl
+                font-semibold
+                mt-3
+                text-gray-700
+                dark:text-gray-100
+              "
+            >
               Foto Bersama
             </h3>
-            <p class="text-xs text-gray-600 mt-2 text-center">
+            <p
+              class="text-xs text-gray-600 dark:text-gray-200 mt-2 text-center"
+            >
               Untuk kalian yang akan membuat foto kenangan setelah kelulusa,
               foto kengan keluarga ataupun foto dengan banyak orang dalam 1
               frame.
             </p>
-            <table class="w-full mt-5">
+            <table class="w-full mt-5 dark:text-gray-100">
               <tr class="border-b-2">
                 <td>
                   <a
@@ -1064,14 +1170,22 @@
                     data-title="My caption"
                   >
                     Keluarga
-                    <span class="text-xs text-gray-400 2xl:inline-block block"
+                    <span
+                      class="
+                        text-xs text-gray-400
+                        dark:text-gray-200
+                        2xl:inline-block
+                        block
+                      "
                       >(studio)</span
                     >
                   </a>
                 </td>
                 <td class="text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">165 - 295</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >165 - 295</span
+                  >
                   rb
                 </td>
                 <td>
@@ -1113,13 +1227,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Keluarga
-                  <span class="text-xs text-gray-400 2xl:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      2xl:inline-block
+                      block
+                    "
                     >(outdoor)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">165 - 299</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >165 - 299</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -1161,13 +1283,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Group
-                  <span class="text-xs text-gray-400 2xl:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      2xl:inline-block
+                      block
+                    "
                     >(studio)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">165 - 295</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >165 - 295</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -1209,13 +1339,21 @@
               <tr class="border-b-2">
                 <td class="pt-5">
                   Group
-                  <span class="text-xs text-gray-400 2xl:inline-block block"
+                  <span
+                    class="
+                      text-xs text-gray-400
+                      dark:text-gray-200
+                      2xl:inline-block
+                      block
+                    "
                     >(outdoor)</span
                   >
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700">145 - 275</span>
+                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                    >145 - 275</span
+                  >
                   rb
                 </td>
                 <td class="pt-5">
@@ -1263,11 +1401,14 @@
                 text-center
                 duration-500
                 border-[3px] border-gray-800
+                dark:border-white
                 hover:border-transparent
+                dark:hover:border-transparent
                 shadow-[7px_7px_0_0_#ffd481]
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
+                dark:text-gray-100
                 text-gray-800
                 hover:text-white
                 py-3
@@ -1276,7 +1417,7 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 px-5 py-4">
+          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

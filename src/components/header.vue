@@ -39,6 +39,7 @@
           text-center
           sm:text-left
           text-gray-800
+          dark:text-gray-100
         "
       >
         Capture <br />
@@ -80,7 +81,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9"
+            class="w-9 h-9 dark:text-gray-100"
           >
             <path
               stroke-linecap="round"
@@ -89,10 +90,10 @@
             />
           </svg>
 
-          <h3 class="text-xl font-semibold mt-3 mb-2">
+          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-gray-100">
             Outdoor dan Studio Photo
           </h3>
-          <p class="text-sm text-gray-600">
+          <p class="text-sm text-gray-600 dark:text-gray-200">
             Solo ? Duo atau Family Photo juga bisa. Tersedia dengan berbagai
             background photo. Juga dapat dibantu untuk mendapat pose yang bagus.
           </p>
@@ -104,7 +105,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9"
+            class="w-9 h-9 dark:text-gray-100"
           >
             <path
               stroke-linecap="round"
@@ -118,8 +119,10 @@
             />
           </svg>
 
-          <h3 class="text-xl font-semibold mt-3 mb-2">Fotografer Moments</h3>
-          <p class="text-sm text-gray-600">
+          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-gray-100">
+            Fotografer Moments
+          </h3>
+          <p class="text-sm text-gray-600 dark:text-gray-200">
             Sudah menerima banyak client dari berbagai kota untuk membantu
             mengabadikan momen Pernikahan, Kelulusan ataupun Family Photo.
           </p>
