@@ -59,6 +59,7 @@
         data-filter="all"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-2
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -83,6 +84,7 @@
         data-filter="prewed"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-[3px]
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -105,6 +107,7 @@
         data-filter="wedding"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-[3px]
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -127,6 +130,7 @@
         data-filter="group"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-[3px]
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -149,6 +153,7 @@
         data-filter="couple"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-[3px]
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -171,6 +176,7 @@
         data-filter="single"
         @click="filterGalleryUsingCategoryImage()"
         class="
+          mb-4
           border-[3px]
           hover:border-2
           dark:border-gray-100 dark:text-gray-100
@@ -189,11 +195,19 @@
         Single
       </button>
     </div>
-    <figure class="grid grid-cols-2 sm:grid-cols-3 gap-5 mt-10">
+    <figure class="grid grid-cols-2 sm:grid-cols-3 gap-1 sm:gap-4 mt-10 mb-6">
       <img
         v-for="(gallery, index) in galleries"
         :key="index"
-        class="bg-white dark:bg-slate-700 p-1 rounded border dark:border-0 itemBox"
+        class="
+          bg-white
+          dark:bg-slate-700
+          p-1
+          rounded
+          border
+          dark:border-0
+          itemBox
+        "
         :src="gallery.url"
         :data-item="gallery.category"
       />
@@ -209,6 +223,12 @@ export default {
       galleries: galleries,
     };
   },
+
+  created() {
+    window.scrollTo(0, 0);
+    return this.$emit("requestShowLoading");
+  },
+
   methods: {
     filterGalleryUsingCategoryImage() {
       let list = document.querySelectorAll("#filterButton");
@@ -236,7 +256,6 @@ export default {
           this.classList.add("bg-[#ffd481]");
 
           let dataFilter = this.getAttribute("data-filter");
-          console.log(dataFilter);
           for (let k = 0; k < itemBox.length; k++) {
             itemBox[k].classList.add("hidden");
             if (

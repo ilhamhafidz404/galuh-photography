@@ -13,7 +13,12 @@ import darkMode from "../components/darkMode.vue";
 </template>
     
 <script>
-export default {};
+export default {
+  created() {
+    window.scrollTo(0, 0);
+    return this.$emit("requestShowLoading");
+  },
+};
 </script>
     
 <style>
