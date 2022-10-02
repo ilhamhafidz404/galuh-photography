@@ -861,7 +861,7 @@
           md:after:right-[100px]
           xl:after:right-0
           after:right-[100px] after:bg-[#ffd481] after:-z-[1]
-          dark:text-gray-100
+          dark:text-white/90
         "
       >
         <span
@@ -917,7 +917,7 @@
           py-2
           text-gray-700
           hover:text-white
-          dark:text-gray-100
+          dark:text-white/90
           mr-5
         "
       >
@@ -1233,7 +1233,7 @@
         py-2
         text-gray-700
         hover:text-white
-        dark:text-gray-100
+        dark:text-white/90
         mr-5
       "
     >

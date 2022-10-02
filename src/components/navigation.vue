@@ -22,7 +22,10 @@ import darkMode from "./darkMode.vue";
           <img src="../assets/img/gp_logo.png" class="w-[50px]" />
         </router-link>
       </div>
-      <ul class="hidden sm:flex text-gray-600 dark:text-gray-100">
+      <ul
+        class="hidden sm:flex text-gray-600 dark:text-gray-100"
+        v-show="$route.name !== 'gallery'"
+      >
         <li>
           <a href="#gallery">Gallery</a>
         </li>
@@ -39,28 +42,23 @@ import darkMode from "./darkMode.vue";
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <ul
+        class="hidden sm:flex text-gray-600 dark:text-gray-100"
+        v-show="$route.name === 'gallery'"
+      >
+        <li>
+          <router-link :to="{ name: 'home' }">Home</router-link>
+        </li>
+        <li class="mx-10 text-gray-400">|</li>
+        <li>
+          <router-link :to="{ name: 'gallery' }" class="font-bold text-[#ffd481]"
+            >Gallery</router-link
+          >
+        </li>
+      </ul>
     </div>
     <div class="z-[60]">
       <darkMode></darkMode>
-      <!-- <button
-        id="buttonForToggleHamburgerMenu"
-        @click="sendRequestOpenHamburgerMenu()"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="w-10 h-10"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
-      </button> -->
     </div>
   </nav>
 </template>

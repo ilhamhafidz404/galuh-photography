@@ -53,7 +53,7 @@
       </span>
       Gallery Photography
     </h2>
-    <div class="mt-10">
+    <div class="mt-10 flex flex-wrap justify-center">
       <button
         id="filterButton"
         data-filter="all"
@@ -70,11 +70,14 @@
           hover:bg-[#ffd481]
           border-transparent
           hover:border-transparent
-          px-5
-          py-2
-          text-white
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-white
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         All
@@ -93,11 +96,14 @@
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
           hover:border-transparent
-          px-5
-          py-2
-          text-gray-700
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-gray-700
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         Prewed
@@ -116,11 +122,14 @@
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
           hover:border-transparent
-          px-5
-          py-2
-          text-gray-700
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-gray-700
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         Wedding
@@ -139,11 +148,14 @@
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
           hover:border-transparent
-          px-5
-          py-2
-          text-gray-700
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-gray-700
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         Group
@@ -162,11 +174,14 @@
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
           hover:border-transparent
-          px-5
-          py-2
-          text-gray-700
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-gray-700
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         Couple
@@ -185,11 +200,14 @@
           hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
           border-gray-700
           hover:border-transparent
-          px-5
-          py-2
-          text-gray-700
+          md:px-5 md:py-2
+          px-3
+          py-1
+          md:text-base
+          text-sm text-gray-700
           hover:text-white
-          mr-5
+          md:mr-5
+          mr-3
         "
       >
         Single

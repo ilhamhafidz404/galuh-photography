@@ -495,7 +495,7 @@
         after:right-0
         after:bg-[#ffd481]
         after:-z-[1]
-        dark:text-gray-100
+        dark:text-white/90
       "
     >
       <span
@@ -582,7 +582,7 @@
                 font-semibold
                 mt-3
                 text-gray-700
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Foto Reguler
@@ -594,7 +594,7 @@
               keperluan formal seperti foto ijazah ataupun ingin mengabadikan
               moment bersama pasangan.
             </p>
-            <table class="w-full mt-5 dark:text-gray-100">
+            <table class="w-full mt-5 dark:text-white/90">
               <tr class="border-b-2">
                 <td>
                   Singel
@@ -610,7 +610,8 @@
                 </td>
                 <td class="text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >99 - 199</span
                   >
                   rb
@@ -666,7 +667,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >79 - 189</span
                   >
                   rb
@@ -722,7 +724,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >129 - 249</span
                   >
                   rb
@@ -778,7 +781,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >99 - 250</span
                   >
                   rb
@@ -835,7 +839,7 @@
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
-                dark:text-gray-100
+                dark:text-white/90
                 text-gray-800
                 hover:text-white
                 py-3
@@ -844,7 +848,9 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
+          <div
+            class="bg-gray-50 dark:bg-slate-600 dark:text-white/90 px-5 py-4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -897,7 +903,7 @@
                 font-semibold
                 mt-3
                 text-gray-700
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Foto Acara
@@ -908,7 +914,7 @@
               Kami akan membantu anda untuk mengabadikan dan mebantuk acara
               anda. Untuk paket acara lain bisa hubungi langsung via WA.
             </p>
-            <table class="w-full mt-5 dark:text-gray-100">
+            <table class="w-full mt-5 dark:text-white/90">
               <tr class="border-b-2">
                 <td>
                   Prewedding
@@ -919,10 +925,13 @@
                 <td class="text-right">
                   Rp.
                   <span class="font-bold text-xl text-gray-70">650 </span>rb
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
+                  >
                     -
                   </span>
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >1.3 </span
                   >jt
                 </td>
@@ -971,13 +980,17 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >550 </span
                   >rb
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
+                  >
                     -
                   </span>
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >1.2 </span
                   >jt
                 </td>
@@ -1021,13 +1034,17 @@
                 <td class="pt-5">Wedding</td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >450 </span
                   >rb
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100">
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
+                  >
                     -
                   </span>
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >1.2 </span
                   >jt
                 </td>
@@ -1083,7 +1100,7 @@
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
-                dark:text-gray-100
+                dark:text-white/90
                 text-gray-800
                 hover:text-white
                 py-3
@@ -1092,7 +1109,9 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
+          <div
+            class="bg-gray-50 dark:bg-slate-600 dark:text-white/90 px-5 py-4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -1149,7 +1168,7 @@
                 font-semibold
                 mt-3
                 text-gray-700
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Foto Bersama
@@ -1161,7 +1180,7 @@
               foto kengan keluarga ataupun foto dengan banyak orang dalam 1
               frame.
             </p>
-            <table class="w-full mt-5 dark:text-gray-100">
+            <table class="w-full mt-5 dark:text-white/90">
               <tr class="border-b-2">
                 <td>
                   <a
@@ -1183,7 +1202,8 @@
                 </td>
                 <td class="text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >165 - 295</span
                   >
                   rb
@@ -1239,7 +1259,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >165 - 299</span
                   >
                   rb
@@ -1295,7 +1316,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >165 - 295</span
                   >
                   rb
@@ -1351,7 +1373,8 @@
                 </td>
                 <td class="pt-5 text-right">
                   Rp.
-                  <span class="font-bold text-xl text-gray-700 dark:text-gray-100"
+                  <span
+                    class="font-bold text-xl text-gray-700 dark:text-white/90"
                     >145 - 275</span
                   >
                   rb
@@ -1408,7 +1431,7 @@
                 hover:shadow-[0_0_12px_#ffd481] hover:bg-[#ffd481]
                 w-full
                 mt-5
-                dark:text-gray-100
+                dark:text-white/90
                 text-gray-800
                 hover:text-white
                 py-3
@@ -1417,7 +1440,9 @@
               Pesan Sekarang
             </a>
           </div>
-          <div class="bg-gray-50 dark:bg-slate-600 dark:text-gray-100 px-5 py-4">
+          <div
+            class="bg-gray-50 dark:bg-slate-600 dark:text-white/90 px-5 py-4"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

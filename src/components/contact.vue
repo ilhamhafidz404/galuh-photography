@@ -138,7 +138,7 @@
                 mt-5
                 font-semibold
                 text-gray-800
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Hubungi kami lewat Whatsapp
@@ -154,7 +154,7 @@
               id="chevron"
               class="
                 top-1/2
-                dark:text-gray-100
+                dark:text-white/90
                 right-[5px]
                 duration-500
                 absolute
@@ -171,7 +171,7 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-gray-100
+                  dark:text-white/90
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#4caf50]
@@ -205,7 +205,7 @@
             <button
               id="chevron"
               class="
-                dark:text-gray-100
+                dark:text-white/90
                 absolute
                 top-1/2
                 left-[5px]
@@ -225,7 +225,7 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-gray-100
+                  dark:text-white/90
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#d0245d]
@@ -250,7 +250,7 @@
                 mt-5
                 font-semibold
                 text-gray-800
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Hubungi kami lewat Instagram
@@ -265,7 +265,7 @@
             <button
               id="chevron"
               class="
-                dark:text-gray-100
+                dark:text-white/90
                 absolute
                 top-1/2
                 right-[5px]
@@ -285,7 +285,7 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-gray-100
+                  dark:text-white/90
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#d0245d]
@@ -319,7 +319,7 @@
             <button
               id="chevron"
               class="
-                dark:text-gray-100
+                dark:text-white/90
                 absolute
                 top-1/2
                 left-[5px]
@@ -339,7 +339,7 @@
                   w-8
                   h-8
                   text-gray-600
-                  dark:text-gray-100
+                  dark:text-white/90
                   hover:w-10 hover:h-10
                   duration-300
                   hover:text-[#ff0101]
@@ -364,7 +364,7 @@
                 mt-5
                 font-semibold
                 text-gray-800
-                dark:text-gray-100
+                dark:text-white/90
               "
             >
               Ikuti kami di Youtube

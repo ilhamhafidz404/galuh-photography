@@ -39,7 +39,7 @@
           text-center
           sm:text-left
           text-gray-800
-          dark:text-gray-100
+          dark:text-white/90
         "
       >
         Capture <br />
@@ -81,7 +81,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9 dark:text-gray-100"
+            class="w-9 h-9 dark:text-white/90"
           >
             <path
               stroke-linecap="round"
@@ -90,7 +90,7 @@
             />
           </svg>
 
-          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-gray-100">
+          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-white/90">
             Outdoor dan Studio Photo
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-200">
@@ -105,7 +105,7 @@
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-9 h-9 dark:text-gray-100"
+            class="w-9 h-9 dark:text-white/90"
           >
             <path
               stroke-linecap="round"
@@ -119,7 +119,7 @@
             />
           </svg>
 
-          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-gray-100">
+          <h3 class="text-xl font-semibold mt-3 mb-2 dark:text-white/90">
             Fotografer Moments
           </h3>
           <p class="text-sm text-gray-600 dark:text-gray-200">
