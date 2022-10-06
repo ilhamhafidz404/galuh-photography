@@ -1,4 +1,803 @@
 <template>
+  <section id="overflow-gallery">
+    <div
+      id="gallery1"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          p-1
+          w-[200px]
+          sm:w-[350px]
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/potrait1.jpg"
+          alt=""
+        />
+        <a href="#gallery2" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery2"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery1" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape1.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery3"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery3"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery2" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape2.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery4"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery4"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery3" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape3.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery5"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery5"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[200px]
+          sm:w-[350px]
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery4" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/potrait2.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery6"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery6"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery5" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape4.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery7"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery7"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery6" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape5.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery8"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery8"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery7" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape6.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery9"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery9"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[90%]
+          lg:w-auto
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery8" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/landscape6.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery10"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery10"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          w-[200px]
+          sm:w-[350px]
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery9" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/potrait4.jpg"
+          alt=""
+        />
+        <a
+          href="#gallery11"
+          class="absolute bottom-[-50px] left-[50px] text-white"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.25 4.5l7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div
+      id="gallery11"
+      class="fixed hidden target:block target:inset-0 bg-black/80 z-[500]"
+    >
+      <div
+        class="
+          bg-white
+          sm:w-[350px]
+          p-1
+          absolute
+          top-[20px]
+          left-1/2
+          -translate-x-1/2
+          rounded
+        "
+      >
+        <a href="#gallery" class="absolute bottom-[-50px] right-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </a>
+        <!--  -->
+        <a href="#gallery10" class="absolute bottom-[-50px] left-0 text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-10 h-10"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5L8.25 12l7.5-7.5"
+            />
+          </svg>
+        </a>
+        <img
+          class="object-center h-full object-cover w-full"
+          src="../assets/img/gallery/potrait5.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </section>
   <section id="gallery" class="w-[90%] mx-auto mt-32">
     <div class="block sm:flex items-center justify-between mb-10">
       <h2
@@ -100,11 +899,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/potrait1.jpg?alt=media&token=073efb5b-e91b-4a6f-8112-9712dc420fd1"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery1">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/potrait1.jpg"
@@ -129,11 +924,7 @@
             itemBox
           "
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape1.jpg?alt=media&token=3876f79a-a8e3-423a-bbc8-6c3dc76b2c9c"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery2">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/landscape1.jpg"
@@ -159,11 +950,7 @@
           "
           data-item="indoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape2.jpg?alt=media&token=a86d4685-4f67-49b7-8205-17740ca401c0"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery3">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/landscape2.jpg"
@@ -189,11 +976,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape3.jpg?alt=media&token=348fe172-035d-4dff-9576-09181b3c8f98"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery4">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/landscape3.jpg"
@@ -219,11 +1002,7 @@
           "
           data-item="indoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/potrait2.jpg?alt=media&token=15cb7549-41de-400b-a054-044f146646d3"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery5">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/potrait2.jpg"
@@ -249,11 +1028,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape4.jpg?alt=media&token=c4a4c040-c181-46bd-b668-0eba3a60fdd9"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery6">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/landscape4.jpg"
@@ -279,11 +1054,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape5.jpg?alt=media&token=3212dd0d-445a-4320-8b66-7c5262d04ba5"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery7">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/landscape5.jpg"
@@ -310,11 +1081,7 @@
             "
             data-item="indoor"
           >
-            <a
-              href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape6.jpg?alt=media&token=ec2b65f2-b372-43bf-8422-713d72cffa59"
-              data-lightbox="gallery"
-              data-title="My caption"
-            >
+            <a href="#gallery8">
               <img
                 class="h-full object-cover"
                 src="../assets/img/gallery/thumbs/landscape6.jpg"
@@ -339,11 +1106,7 @@
             "
             data-item="indoor"
           >
-            <a
-              href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/landscape6.jpg?alt=media&token=ec2b65f2-b372-43bf-8422-713d72cffa59"
-              data-lightbox="image-1"
-              data-title="My caption"
-            >
+            <a href="#gallery9">
               <img
                 class="h-full object-cover"
                 src="../assets/img/gallery/thumbs/landscape6.jpg"
@@ -370,11 +1133,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/potrait4.jpg?alt=media&token=e687dac1-ebe3-4777-b571-5da129ad2455"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery10">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/thumbs/potrait4.jpg"
@@ -400,11 +1159,7 @@
           "
           data-item="outdoor"
         >
-          <a
-            href="https://firebasestorage.googleapis.com/v0/b/galuh-photography.appspot.com/o/potrait5.jpg?alt=media&token=73cbe2a1-556a-4b80-81f3-acfc02ffaaff"
-            data-lightbox="gallery"
-            data-title="My caption"
-          >
+          <a href="#gallery11">
             <img
               class="object-center h-full object-cover w-full"
               src="../assets/img/gallery/potrait5.jpg"
